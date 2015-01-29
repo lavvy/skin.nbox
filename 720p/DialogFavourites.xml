@@ -14,16 +14,16 @@
             </animation>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[31725][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>190</posy>
+                <left>70</left>
+                <top>190</top>
                 <height>30</height>
                 <width>350</width>
                 <font>Home_header</font>
                 <align>left</align>
             </control>
             <control type="panel" id="450">
-                <posx>295</posx>
-                <posy>288</posy>
+                <left>295</left>
+                <top>288</top>
                 <width>960</width>
                 <height>320</height>
                 <scrolltime>200</scrolltime>
@@ -36,16 +36,16 @@
                 <pagecontrol>451</pagecontrol>
                 <itemlayout width="160" height="160">
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>155</width>
                         <height>155</height>
                         <texture>tile.png</texture>
                         <aspectratio>scale</aspectratio>
                     </control>
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>155</width>
                         <height>155</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -54,8 +54,8 @@
                     </control>
                     <control type="label">
                         <label>$INFO[ListItem.Label]</label>
-                        <posx>6</posx>
-                        <posy>121</posy>
+                        <left>6</left>
+                        <top>121</top>
                         <height>30</height>
                         <width>143</width>
                         <font>button_bold</font>
@@ -64,8 +64,8 @@
                 </itemlayout>
                 <focusedlayout width="160" height="160">
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>155</width>
                         <height>155</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -73,12 +73,12 @@
                         <animation effect="fade" start="50" time="400" easing="out" tween="square">Focus</animation>
                     </control>
                     <control type="group">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <animation effect="fade" start="50" time="400" easing="out" tween="square">Focus</animation>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>155</width>
                             <height>155</height>
                             <texture>button_fade.png</texture>
@@ -86,8 +86,8 @@
                     </control>
                     <control type="label">
                         <label>[COLOR Accent]$INFO[ListItem.Label][/COLOR]</label>
-                        <posx>6</posx>
-                        <posy>121</posy>
+                        <left>6</left>
+                        <top>121</top>
                         <height>30</height>
                         <width>143</width>
                         <font>button_bold</font>
@@ -96,8 +96,8 @@
                 </focusedlayout>
             </control>
             <control type="scrollbar" id="451">
-                <posx>1255</posx>
-                <posy>288</posy>
+                <left>1255</left>
+                <top>288</top>
                 <width>6</width>
                 <height>315</height>
                 <texturesliderbackground></texturesliderbackground>
@@ -109,8 +109,8 @@
                 <orientation>vertical</orientation>
             </control>
             <control type="fadelabel" id="140">
-                <posx>295</posx>
-                <posy>190</posy>
+                <left>295</left>
+                <top>190</top>
                 <height>30</height>
                 <width>985</width>
                 <font>Home_menu</font>
@@ -124,8 +124,8 @@
                 <scrollspeed>50</scrollspeed>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>215</width>
                 <height>315</height>
                 <texture>white_box.png</texture>
@@ -134,8 +134,8 @@
                 <visible>!StringCompare(ListItem.Label, )</visible>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>215</width>
                 <height>315</height>
                 <texture background="true">$INFO[Container(450).ListItem.Icon]</texture>

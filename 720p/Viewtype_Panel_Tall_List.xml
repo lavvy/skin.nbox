@@ -2,8 +2,8 @@
 <includes>
     <include name="Viewtype_Panel_Tall_List">
         <control type="image">
-            <posx>-12</posx>
-            <posy>174</posy>
+            <left>-12</left>
+            <top>174</top>
             <width>72</width>
             <height>72</height>
             <texture background="true">other_textures/osd/playlistnf.png</texture>
@@ -40,8 +40,8 @@
                 <effect type="slide" start="+1500,0" time="300" />
             </animation>
             <control type="image">
-                <posx>295</posx>
-                <posy>288</posy>
+                <left>295</left>
+                <top>288</top>
                 <width>520</width>
                 <height>315</height>
                 <texture>music_fanart_diffuse.png</texture>
@@ -50,8 +50,8 @@
             </control>
             <control type="list" id="54">
                 <viewtype label="Poster List View">Poster List View</viewtype>
-                <posx>295</posx>
-                <posy>288</posy>
+                <left>295</left>
+                <top>288</top>
                 <width>520</width>
                 <height>315</height>
                 <scrolltime>200</scrolltime>
@@ -66,21 +66,21 @@
                         <texture border="2">other_textures/buttonnf.png</texture>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>480</width>
                         <label>$INFO[ListItem.Label]</label>
                     </control>
                     <control type="image">
-                        <posx>495</posx>
-                        <posy>13</posy>
+                        <left>495</left>
+                        <top>13</top>
                         <width>18</width>
                         <height>15</height>
                         <texture>watchedpanel.png</texture>
                         <visible>[Container.Content(movies) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [!Container.Content(movies) + stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
                     </control>
                     <control type="image">
-                        <posx>495</posx>
-                        <posy>13</posy>
+                        <left>495</left>
+                        <top>13</top>
                         <width>18</width>
                         <height>15</height>
                         <texture>watchingpanel.png</texture>
@@ -95,21 +95,21 @@
                         <animation effect="fade" start="100" end="50" condition="!Control.HasFocus(54)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>480</width>
                         <label>[COLOR White][B]$INFO[ListItem.Label][/B][/COLOR]</label>
                     </control>
                     <control type="image">
-                        <posx>495</posx>
-                        <posy>13</posy>
+                        <left>495</left>
+                        <top>13</top>
                         <width>18</width>
                         <height>15</height>
                         <texture>watchedpanel.png</texture>
                         <visible>[Container.Content(movies) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [!Container.Content(movies) + stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
                     </control>
                     <control type="image">
-                        <posx>495</posx>
-                        <posy>13</posy>
+                        <left>495</left>
+                        <top>13</top>
                         <width>18</width>
                         <height>15</height>
                         <texture>watchingpanel.png</texture>
@@ -118,8 +118,8 @@
                 </focusedlayout>
             </control>
             <control type="image">
-                <posx>820</posx>
-                <posy>288</posy>
+                <left>820</left>
+                <top>288</top>
                 <width>470</width>
                 <height>315</height>
                 <texture background="true">music_fanart_diffuse.png</texture>
@@ -127,8 +127,8 @@
                 <aspectratio scalediffuse="false">stretch</aspectratio>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>215</width>
                 <height>315</height>
                 <texture>white_box.png</texture>
@@ -137,8 +137,8 @@
                 <visible>!StringCompare(ListItem.Title, ) + !SubString(ListItem.Icon,default)</visible>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>215</width>
                 <height>315</height>
                 <texture background="true">$INFO[ListItem.Icon]</texture>
@@ -148,8 +148,8 @@
                 <bordersize>4</bordersize>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>215</width>
                 <height>315</height>
                 <texture background="true">$INFO[ListItem.Icon]</texture>
@@ -159,8 +159,8 @@
                 <bordersize>4</bordersize>
             </control>
             <control type="scrollbar" id="62">
-                <posx>821</posx>
-                <posy>288</posy>
+                <left>821</left>
+                <top>288</top>
                 <width>6</width>
                 <height>315</height>
                 <texturesliderbackground></texturesliderbackground>
@@ -172,8 +172,8 @@
                 <orientation>vertical</orientation>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>300</posy>
+                <left>840</left>
+                <top>300</top>
                 <width>400</width>
                 <height>50</height>
                 <font>Artist_Font</font>
@@ -182,8 +182,8 @@
                 <visible>!Container.Content(movies) + IntegerGreaterThan(ListItem.Property(TotalSeasons),1) + IntegerGreaterThan(ListItem.Property(TotalEpisodes),1)</visible>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>300</posy>
+                <left>840</left>
+                <top>300</top>
                 <width>400</width>
                 <height>50</height>
                 <font>Artist_Font</font>
@@ -192,8 +192,8 @@
                 <visible>!Container.Content(movies) + !IntegerGreaterThan(ListItem.Property(TotalSeasons),1) + IntegerGreaterThan(ListItem.Property(TotalEpisodes),1)</visible>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>300</posy>
+                <left>840</left>
+                <top>300</top>
                 <width>400</width>
                 <height>50</height>
                 <font>Artist_Font</font>
@@ -202,8 +202,8 @@
                 <visible>!Container.Content(movies) + IntegerGreaterThan(ListItem.Property(TotalSeasons),1) + !IntegerGreaterThan(ListItem.Property(TotalEpisodes),1)</visible>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>300</posy>
+                <left>840</left>
+                <top>300</top>
                 <width>400</width>
                 <height>50</height>
                 <font>Artist_Font</font>
@@ -212,8 +212,8 @@
                 <visible>!Container.Content(movies) + !IntegerGreaterThan(ListItem.Property(TotalSeasons),1) + !IntegerGreaterThan(ListItem.Property(TotalEpisodes),1)</visible>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>300</posy>
+                <left>840</left>
+                <top>300</top>
                 <width>400</width>
                 <height>50</height>
                 <font>Artist_Font</font>
@@ -222,8 +222,8 @@
                 <visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,$LOCALIZE[31299]) + Container.Content(movies)</visible>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>300</posy>
+                <left>840</left>
+                <top>300</top>
                 <width>400</width>
                 <height>50</height>
                 <font>Artist_Font</font>
@@ -232,16 +232,16 @@
                 <visible>!IsEmpty(ListItem.Duration) + Container.Content(movies)</visible>
             </control>
             <control type="image">
-                <posx>840</posx>
-                <posy>562</posy>
+                <left>840</left>
+                <top>562</top>
                 <width>100</width>
                 <height>25</height>
                 <texture>other_textures/colorrating/$INFO[ListItem.StarRating]</texture>
                 <visible>!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(Episodes)] + StringCompare(Container.SortMethod,$LOCALIZE[563])</visible>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>548</posy>
+                <left>840</left>
+                <top>548</top>
                 <width>400</width>
                 <height>50</height>
                 <textcolor>Accent</textcolor>
@@ -249,8 +249,8 @@
                 <visible>[Container.Content(movies) | Container.Content(tvshows)] + StringCompare(Container.SortMethod,$LOCALIZE[20074])</visible>
             </control>
             <control type="label">
-                <posx>840</posx>
-                <posy>548</posy>
+                <left>840</left>
+                <top>548</top>
                 <width>400</width>
                 <height>50</height>
                 <textcolor>Accent</textcolor>
@@ -258,8 +258,8 @@
                 <visible>[Container.Content(movies) | Container.Content(tvshows)] + StringCompare(Container.SortMethod,$LOCALIZE[570])</visible>
             </control>
             <control type="textbox">
-                <posx>840</posx>
-                <posy>360</posy>
+                <left>840</left>
+                <top>360</top>
                 <width>420</width>
                 <height>192</height>
                 <info>ListItem.Plot</info>
@@ -269,8 +269,8 @@
                 <textcolor>White</textcolor>
             </control>
             <control type="fadelabel" id="140">
-                <posx>295</posx>
-                <posy>171</posy>
+                <left>295</left>
+                <top>171</top>
                 <height>30</height>
                 <width>985</width>
                 <font>Home_menu</font>
@@ -285,8 +285,8 @@
                 <visible>Window.IsActive(1) | Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -296,8 +296,8 @@
                 <visible>[!IntegerGreaterThan(ListItem.Property(UnWatchedEpisodes),1) + !StringCompare(ListItem.Property(UnWatchedEpisodes),0)] + Container.Content(tvshows)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -307,8 +307,8 @@
                 <visible>[IntegerGreaterThan(ListItem.Property(UnWatchedEpisodes),1)] + Container.Content(tvshows)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -318,8 +318,8 @@
                 <visible>StringCompare(ListItem.Property(UnWatchedEpisodes),0) + !IsEmpty(ListItem.LastPlayed) + !StringCompare(ListItem.LastPlayed,12/31/1969) + Container.Content(tvshows)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -329,8 +329,8 @@
                 <visible>StringCompare(ListItem.Property(UnWatchedEpisodes),0) + StringCompare(ListItem.LastPlayed,12/31/1969) + Container.Content(tvshows)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>985</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -340,8 +340,8 @@
                 <visible>!IsEmpty(ListItem.Tagline) + Container.Content(Movies)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -351,8 +351,8 @@
                 <visible>IsEmpty(ListItem.Tagline) + Container.Content(Movies)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -362,8 +362,8 @@
                 <visible>!IsEmpty(ListItem.Duration) + SubString(ListItem.Duration,$LOCALIZE[31299]) + IsEmpty(ListItem.Director) + IsEmpty(ListItem.Tagline) + Container.Content(Movies)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -373,8 +373,8 @@
                 <visible>!IsEmpty(ListItem.Duration) + IsEmpty(ListItem.Director) + IsEmpty(ListItem.Tagline) + Container.Content(Movies)</visible>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -385,8 +385,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[31715][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -396,8 +396,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[19020][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>400</width>
                 <font>Home_header</font>
@@ -406,8 +406,8 @@
                 <visible>Container.Content(TVShows)</visible>
             </control>
             <control type="label">
-                <posx>796</posx>
-                <posy>320</posy>
+                <left>796</left>
+                <top>320</top>
                 <width>485</width>
                 <height>50</height>
                 <align>center</align>

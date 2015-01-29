@@ -18,8 +18,8 @@
                 <effect type="fade" start="100" end="0" time="400" delay="300" />
             </animation>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>1280</width>
                 <height>672</height>
                 <texture>tile.png</texture>
@@ -28,8 +28,8 @@
             </control>
             <control type="image">
                 <description>black bar</description>
-                <posx>0</posx>
-                <posy>440</posy>
+                <left>0</left>
+                <top>440</top>
                 <width>1280</width>
                 <height>232</height>
                 <fadetime>200</fadetime>
@@ -39,8 +39,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$INFO[System.Time(hh:mm)][COLOR Accent]$INFO[System.Time(xx)][/COLOR][/LOWERCASE]</label>
-                <posx>1275</posx>
-                <posy>420</posy>
+                <left>1275</left>
+                <top>420</top>
                 <height>100</height>
                 <width>550</width>
                 <font>Home_sub_header</font>
@@ -49,8 +49,8 @@
             </control>
             <control type="image">
                 <description>Non Movie cover image</description>
-                <posx>148</posx>
-                <posy>440</posy>
+                <left>148</left>
+                <top>440</top>
                 <width>156</width>
                 <height>232</height>
                 <texture background="true">$INFO[Player.Art(tvshow.poster)]</texture>
@@ -60,8 +60,8 @@
             </control>
             <control type="image">
                 <description>Movie cover image</description>
-                <posx>148</posx>
-                <posy>440</posy>
+                <left>148</left>
+                <top>440</top>
                 <width>156</width>
                 <height>232</height>
                 <texture background="true">$INFO[VideoPlayer.Cover]</texture>
@@ -70,11 +70,11 @@
                 <visible>VideoPlayer.Content(Movies)</visible>
             </control>
             <control type="group">
-                <posx>325</posx>
-                <posy>515</posy>
+                <left>325</left>
+                <top>515</top>
                 <control type="fadelabel">
-                    <posx>-175</posx>
-                    <posy>165</posy>
+                    <left>-175</left>
+                    <top>165</top>
                     <width>980</width>
                     <height>28</height>
                     <align>left</align>
@@ -83,8 +83,8 @@
                     <visible>[Window.IsVisible(fullscreeninfo) | Window.IsVisible(seekbar)] + !Skin.HasSetting(Plot)</visible>
                 </control>
                 <control type="label">
-                    <posx>0</posx>
-                    <posy>-5</posy>
+                    <left>0</left>
+                    <top>-5</top>
                     <width>955</width>
                     <label>[COLOR Accent]$INFO[VideoPlayer.Title][/COLOR] $INFO[VideoPlayer.Year]$INFO[VideoPlayer.ChannelName]</label>
                     <scroll>true</scroll>
@@ -92,8 +92,8 @@
                     <align>left</align>
                 </control>
                 <control type="label">
-                    <posx>0</posx>
-                    <posy>32</posy>
+                    <left>0</left>
+                    <top>32</top>
                     <width>830</width>
                     <label>[LOWERCASE]$INFO[VideoPlayer.Tagline][/LOWERCASE]</label>
                     <scroll>true</scroll>
@@ -101,8 +101,8 @@
                     <align>left</align>
                 </control>
                 <control type="label">
-                    <posx>0</posx>
-                    <posy>32</posy>
+                    <left>0</left>
+                    <top>32</top>
                     <width>830</width>
                     <label>[COLOR Accent]$INFO[VideoPlayer.Director,[COLOR White][LOWERCASE]$LOCALIZE[20339][/LOWERCASE]: [/COLOR]][/COLOR]</label>
                     <scroll>true</scroll>
@@ -111,8 +111,8 @@
                     <visible>VideoPlayer.Content(Movies) + IsEmpty(VideoPlayer.Tagline) + !IsEmpty(VideoPlayer.Director)</visible>
                 </control>
                 <control type="label">
-                    <posx>0</posx>
-                    <posy>32</posy>
+                    <left>0</left>
+                    <top>32</top>
                     <width>830</width>
                     <label>$INFO[VideoPlayer.TVShowTitle][COLOR Accent] $INFO[VideoPlayer.Season,$LOCALIZE[20373] ]$INFO[VideoPlayer.Episode, $LOCALIZE[20359] ] [/COLOR]</label>
                     <scroll>true</scroll>
@@ -121,8 +121,8 @@
                     <visible>VideoPlayer.Content(Episodes)</visible>
                 </control>
                 <control type="label">
-                    <posx>0</posx>
-                    <posy>32</posy>
+                    <left>0</left>
+                    <top>32</top>
                     <width>830</width>
                     <label>$INFO[VideoPlayer.Artist] [COLOR Accent]$INFO[VideoPlayer.Album][/COLOR]</label>
                     <scroll>true</scroll>
@@ -131,8 +131,8 @@
                     <visible>VideoPlayer.Content(MusicVideos)</visible>
                 </control>
                 <control type="label">
-                    <posx>0</posx>
-                    <posy>32</posy>
+                    <left>0</left>
+                    <top>32</top>
                     <width>830</width>
                     <label>[COLOR Accent]$INFO[VideoPlayer.EndTime,[COLOR white][LOWERCASE]$LOCALIZE[19127]: [/LOWERCASE][/COLOR]][/COLOR] [COLOR Accent]$INFO[VideoPlayer.NextTitle,[COLOR white][LOWERCASE]$LOCALIZE[19031][/LOWERCASE]: [/COLOR]][/COLOR]</label>
                     <scroll>true</scroll>
@@ -140,8 +140,8 @@
                     <align>left</align>
                 </control>
                 <control type="label">
-                    <posx>0</posx>
-                    <posy>62</posy>
+                    <left>0</left>
+                    <top>62</top>
                     <width>830</width>
                     <label>[COLOR Accent]$INFO[Player.FinishTime,[COLOR white][LOWERCASE]$LOCALIZE[19127]: [/LOWERCASE][/COLOR]][/COLOR]</label>
                     <scroll>true</scroll>
@@ -153,8 +153,8 @@
             <control type="group">
                 <control type="progress">
                     <description>Progressbar</description>
-                    <posx>0</posx>
-                    <posy>715</posy>
+                    <left>0</left>
+                    <top>715</top>
                     <width>1280</width>
                     <height>5</height>
                     <info>Player.Progress</info>
@@ -163,8 +163,8 @@
                 </control>
                 <control type="label">
                     <description>Player Times</description>
-                    <posx>30</posx>
-                    <posy>670</posy>
+                    <left>30</left>
+                    <top>670</top>
                     <width>120</width>
                     <label>[COLOR Accent]$INFO[Player.Time][/COLOR]</label>
                     <align>left</align>
@@ -172,8 +172,8 @@
                 </control>
                 <control type="label">
                     <description>Player Times</description>
-                    <posx>1250</posx>
-                    <posy>670</posy>
+                    <left>1250</left>
+                    <top>670</top>
                     <width>120</width>
                     <label>$INFO[Player.TimeRemaining,-]</label>
                     <align>right</align>

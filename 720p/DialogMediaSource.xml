@@ -5,8 +5,8 @@
     <controls>
         <include>GlobalOverlay</include>
         <control type="group">
-            <posx>880</posx>
-            <posy>0</posy>
+            <left>880</left>
+            <top>0</top>
             <visible>!Window.IsVisible(FileBrowser.xml)</visible>
             <animation type="WindowOpen">
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" />
@@ -21,16 +21,16 @@
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" />
             </animation>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>440</width>
                 <height>720</height>
                 <texture border="22">button.png</texture>
             </control>
             <control type="fadelabel">
                 <description>Menu Title</description>
-                <posx>30</posx>
-                <posy>70</posy>
+                <left>30</left>
+                <top>70</top>
                 <width>370</width>
                 <label>[LOWERCASE]$LOCALIZE[573][/LOWERCASE]</label>
                 <font>Home_sub_header</font>
@@ -38,8 +38,8 @@
                 <textcolor>black</textcolor>
             </control>
             <control type="list" id="10">
-                <posx>30</posx>
-                <posy>180</posy>
+                <left>30</left>
+                <top>180</top>
                 <width>340</width>
                 <height>322</height>
                 <onup>19</onup>
@@ -51,7 +51,7 @@
                         <texture border="2">other_textures/buttonnf.png</texture>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>400</width>
                         <info>ListItem.Label</info>
                         <textcolor>black</textcolor>
@@ -65,15 +65,15 @@
                         <animation effect="fade" start="100" end="50" condition="!Control.HasFocus(10)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>400</width>
                         <info>ListItem.Label</info>
                     </control>
                 </focusedlayout>
             </control>
             <control type="grouplist" id="9000">
-                <posx>30</posx>
-                <posy>230</posy>
+                <left>30</left>
+                <top>230</top>
                 <width>340</width>
                 <itemgap>2</itemgap>
                 <orientation>vertical</orientation>
@@ -103,16 +103,16 @@
             </control>
             <control type="label" id="0">
                 <description>Name Label</description>
-                <posx>30</posx>
-                <posy>398</posy>
+                <left>30</left>
+                <top>398</top>
                 <width>340</width>
                 <label>1022</label>
                 <textcolor>black</textcolor>
             </control>
             <control type="button" id="12">
                 <description>Name</description>
-                <posx>30</posx>
-                <posy>448</posy>
+                <left>30</left>
+                <top>448</top>
                 <label></label>
                 <width>340</width>
                 <align>center</align>
@@ -122,8 +122,8 @@
                 <textcolor>black</textcolor>
             </control>
             <control type="grouplist" id="9001">
-                <posx>10</posx>
-                <posy>660</posy>
+                <left>10</left>
+                <top>660</top>
                 <itemgap>2</itemgap>
                 <orientation>horizontal</orientation>
                 <onup>450</onup>

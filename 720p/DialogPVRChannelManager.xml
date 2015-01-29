@@ -20,8 +20,8 @@
             </animation>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[31703][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -29,16 +29,16 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[19199][/COLOR]</label>
-                <posx>340</posx>
-                <posy>180</posy>
+                <left>340</left>
+                <top>180</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
                 <align>left</align>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -47,8 +47,8 @@
                 <visible>IsEmpty(Window.Property(IsRadio))</visible>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -57,26 +57,26 @@
                 <visible>!IsEmpty(Window.Property(IsRadio))</visible>
             </control>
             <control type="label">
-                <posx>340</posx>
-                <posy>210</posy>
+                <left>340</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <font>Sort_Font_Small</font>
                 <label>[COLOR Accent]$INFO[ListItem.Property(ClientName),[COLOR White][LOWERCASE]$LOCALIZE[19210][/LOWERCASE]: [/COLOR]][/COLOR]</label>
             </control>
             <control type="group">
-                <posx>340</posx>
-                <posy>280</posy>
+                <left>340</left>
+                <top>280</top>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>420</width>
                     <height>315</height>
                     <texture border="5">music_fanart_diffuse.png</texture>
                 </control>
                 <control type="list" id="20">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>420</width>
                     <height>315</height>
                     <onup>20</onup>
@@ -87,28 +87,28 @@
                     <scrolltime>200</scrolltime>
                     <itemlayout height="45" width="420">
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>420</width>
                             <height>45</height>
                             <texture border="2">other_textures/buttonnf.png</texture>
                         </control>
                         <control type="label">
-                            <posx>22</posx>
+                            <left>22</left>
                             <width>45</width>
                             <align>center</align>
                             <label>$INFO[ListItem.Property(Number)]</label>
                         </control>
                         <control type="label">
-                            <posx>65</posx>
+                            <left>65</left>
                             <width>265</width>
                             <label>$INFO[ListItem.Property(Name)]</label>
                         </control>
                     </itemlayout>
                     <focusedlayout height="45" width="420">
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>420</width>
                             <height>45</height>
                             <texture border="2">other_textures/buttonfo.png</texture>
@@ -123,13 +123,13 @@
                             </animation>
                         </control>
                         <control type="label">
-                            <posx>22</posx>
+                            <left>22</left>
                             <width>45</width>
                             <align>center</align>
                             <label>[B]$INFO[ListItem.Property(Number)][/B]</label>
                         </control>
                         <control type="fadelabel">
-                            <posx>65</posx>
+                            <left>65</left>
                             <width>265</width>
                             <label>[COLOR Accent]$INFO[ListItem.Property(Name)][/COLOR]</label>
                         </control>
@@ -138,19 +138,19 @@
             </control>
             <control type="group" id="9002">
                 <control type="group">
-                    <posx>765</posx>
-                    <posy>280</posy>
+                    <left>765</left>
+                    <top>280</top>
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>515</width>
                         <height>315</height>
                         <texture border="5">music_fanart_diffuse.png</texture>
                     </control>
                     <control type="radiobutton" id="7">
                         <description>Channel activated</description>
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>515</width>
                         <align>left</align>
                         <focusedcolor>Accent</focusedcolor>
@@ -163,8 +163,8 @@
                     </control>
                     <control type="edit" id="8">
                         <description>Channel name</description>
-                        <posx>20</posx>
-                        <posy>45</posy>
+                        <left>20</left>
+                        <top>45</top>
                         <width>475</width>
                         <height>45</height>
                         <aligny>center</aligny>
@@ -179,8 +179,8 @@
                     </control>
                     <control type="radiobutton" id="12">
                         <description>EPG activated</description>
-                        <posx>0</posx>
-                        <posy>90</posy>
+                        <left>0</left>
+                        <top>90</top>
                         <width>515</width>
                         <align>left</align>
                         <focusedcolor>Accent</focusedcolor>
@@ -193,8 +193,8 @@
                     </control>
                     <control type="spincontrolex" id="13">
                         <description>EPG source</description>
-                        <posx>0</posx>
-                        <posy>135</posy>
+                        <left>0</left>
+                        <top>135</top>
                         <width>515</width>
                         <label>19200</label>
                         <onleft>20</onleft>
@@ -208,8 +208,8 @@
                     </control>
                     <control type="radiobutton" id="14">
                         <description>Parental locked</description>
-                        <posx>0</posx>
-                        <posy>180</posy>
+                        <left>0</left>
+                        <top>180</top>
                         <width>515</width>
                         <align>left</align>
                         <focusedcolor>Accent</focusedcolor>
@@ -222,11 +222,11 @@
                     </control>
                 </control>
                 <control type="group">
-                    <posx>765</posx>
-                    <posy>550</posy>
+                    <left>765</left>
+                    <top>550</top>
                     <control type="button" id="31">
                         <description>Edit channel Button</description>
-                        <posx>0</posx>
+                        <left>0</left>
                         <width>165</width>
                         <label>19203</label>
                         <onleft>20</onleft>
@@ -236,7 +236,7 @@
                     </control>
                     <control type="button" id="32">
                         <description>Delete channel Button</description>
-                        <posx>170</posx>
+                        <left>170</left>
                         <width>165</width>
                         <label>19211</label>
                         <onleft>31</onleft>
@@ -245,7 +245,7 @@
                     </control>
                     <control type="button" id="33">
                         <description>New channel Button</description>
-                        <posx>340</posx>
+                        <left>340</left>
                         <width>165</width>
                         <label>19204</label>
                         <onleft>32</onleft>
@@ -254,8 +254,8 @@
                     </control>
                 </control>
                 <control type="grouplist" id="9010">
-                    <posx>10</posx>
-                    <posy>505</posy>
+                    <left>10</left>
+                    <top>505</top>
                     <width>300</width>
                     <height>145</height>
                     <itemgap>2</itemgap>
@@ -263,8 +263,8 @@
                     <onup>6</onup>
                     <control type="button" id="30">
                         <description>Group Manager Button</description>
-                        <posx>0</posx>
-                        <posy>25</posy>
+                        <left>0</left>
+                        <top>25</top>
                         <width>300</width>
                         <label>19205</label>
                         <align>right</align>
@@ -272,8 +272,8 @@
                     </control>
                     <control type="button" id="34">
                         <description>TV/Radio Button</description>
-                        <posx>195</posx>
-                        <posy>25</posy>
+                        <left>195</left>
+                        <top>25</top>
                         <width>300</width>
                         <visible>IsEmpty(Window.Property(IsRadio))</visible>
                         <label>19024</label>
@@ -282,8 +282,8 @@
                     </control>
                     <control type="button" id="34">
                         <description>TV/Radio Button</description>
-                        <posx>195</posx>
-                        <posy>25</posy>
+                        <left>195</left>
+                        <top>25</top>
                         <width>300</width>
                         <visible>!IsEmpty(Window.Property(IsRadio))</visible>
                         <label>19023</label>
@@ -293,8 +293,8 @@
                 </control>
             </control>
             <control type="scrollbar" id="60">
-                <posx>765</posx>
-                <posy>280</posy>
+                <left>765</left>
+                <top>280</top>
                 <width>6</width>
                 <height>315</height>
                 <texturesliderbackground></texturesliderbackground>
@@ -306,8 +306,8 @@
                 <orientation>vertical</orientation>>
             </control>
             <control type="grouplist" id="9000">
-                <posx>10</posx>
-                <posy>280</posy>
+                <left>10</left>
+                <top>280</top>
                 <width>300</width>
                 <height>145</height>
                 <itemgap>2</itemgap>
@@ -316,8 +316,8 @@
                 <ondown>30</ondown>
                 <control type="button" id="4">
                     <description>OK Button</description>
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>300</width>
                     <label>186</label>
                     <align>right</align>
@@ -325,8 +325,8 @@
                 </control>
                 <control type="button" id="5">
                     <description>Apply changes Button</description>
-                    <posx>260</posx>
-                    <posy>0</posy>
+                    <left>260</left>
+                    <top>0</top>
                     <width>300</width>
                     <label>14070</label>
                     <align>right</align>
@@ -334,8 +334,8 @@
                 </control>
                 <control type="button" id="6">
                     <description>Cancel Button</description>
-                    <posx>520</posx>
-                    <posy>0</posy>
+                    <left>520</left>
+                    <top>0</top>
                     <width>300</width>
                     <label>222</label>
                     <align>right</align>

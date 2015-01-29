@@ -24,8 +24,8 @@
             </animation>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[31703][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>400</width>
                 <font>Home_header</font>
@@ -42,19 +42,19 @@
             </control>
             <control type="group">
                 <description>Small Media Window</description>
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <visible>Control.IsVisible(11) | Control.IsVisible(12)</visible>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>690</width>
                     <height>400</height>
                     <texture border="5">button-nofocus.png</texture>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>455</width>
                     <height>260</height>
                     <texture>white_box.png</texture>
@@ -62,23 +62,23 @@
                     <bordersize>5</bordersize>
                 </control>
                 <control type="image">
-                    <posx>5</posx>
-                    <posy>5</posy>
+                    <left>5</left>
+                    <top>5</top>
                     <width>445</width>
                     <height>250</height>
                     <texture>black.png</texture>
                 </control>
                 <control type="videowindow">
                     <description>video</description>
-                    <posx>5</posx>
-                    <posy>5</posy>
+                    <left>5</left>
+                    <top>5</top>
                     <width>445</width>
                     <height>250</height>
                 </control>
                 <control type="label">
                     <description>Current Video label</description>
-                    <posx>30</posx>
-                    <posy>1</posy>
+                    <left>30</left>
+                    <top>1</top>
                     <width>650</width>
                     <height>35</height>
                     <font>font12</font>
@@ -103,8 +103,8 @@
         <control type="group">
             <visible>!Window.IsVisible(DialogPVRGuideSearch.xml)</visible>
             <control type="image">
-                <posx>-12</posx>
-                <posy>174</posy>
+                <left>-12</left>
+                <top>174</top>
                 <width>72</width>
                 <height>72</height>
                 <texture background="true">other_textures/osd/playlistnf.png</texture>
@@ -128,16 +128,16 @@
                 <animation type="Conditional" condition="!ControlGroup(9000).HasFocus()">
                     <effect type="fade" time="300" start="100" end="0" />
                 </animation>
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>1280</width>
                 <height>720</height>
                 <texture border="2">other_textures/black-back.png</texture>
             </control>
             <control type="image">
                 <description>background image</description>
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>305</width>
                 <height>720</height>
                 <texture border="22">button.png</texture>
@@ -146,8 +146,8 @@
                 </animation>
             </control>
             <control type="grouplist" id="9000">
-                <posx>30</posx>
-                <posy>140</posy>
+                <left>30</left>
+                <top>140</top>
                 <width>240</width>
                 <height>600</height>
                 <itemgap>0</itemgap>

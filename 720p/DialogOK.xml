@@ -5,19 +5,19 @@
     <controls>
         <include>GlobalOverlay</include>
         <control type="group">
-            <posx>420</posx>
-            <posy>240</posy>
+            <left>420</left>
+            <top>240</top>
             <control type="image">
-                <posx></posx>
-                <posy></posy>
+                <left></left>
+                <top></top>
                 <width>440</width>
                 <height>220</height>
                 <texture border="22">button.png</texture>
             </control>
             <control type="label" id="1">
                 <description>heading</description>
-                <posx>30</posx>
-                <posy>20</posy>
+                <left>30</left>
+                <top>20</top>
                 <width>370</width>
                 <label></label>
                 <font>Large</font>
@@ -26,24 +26,24 @@
             </control>
             <control type="label" id="2">
                 <description>Line 1</description>
-                <posx>30</posx>
-                <posy>60</posy>
+                <left>30</left>
+                <top>60</top>
                 <width>370</width>
                 <label></label>
                 <textcolor>black</textcolor>
             </control>
             <control type="label" id="3">
                 <description>Line 2</description>
-                <posx>30</posx>
-                <posy>85</posy>
+                <left>30</left>
+                <top>85</top>
                 <width>370</width>
                 <label></label>
                 <textcolor>black</textcolor>
             </control>
             <control type="label" id="4">
                 <description>Line 3</description>
-                <posx>30</posx>
-                <posy>115</posy>
+                <left>30</left>
+                <top>115</top>
                 <width>370</width>
                 <label></label>
                 <textcolor>black</textcolor>
@@ -51,8 +51,8 @@
             <control type="button" id="10">
                 <description>Ok</description>
                 <textcolor>black</textcolor>
-                <posx>130</posx>
-                <posy>145</posy>
+                <left>130</left>
+                <top>145</top>
                 <width>180</width>
                 <label>186</label>
                 <onleft>10</onleft>

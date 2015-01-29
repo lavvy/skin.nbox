@@ -20,15 +20,15 @@
                 <effect type="slide" start="+1500,0" time="300" />
             </animation>
             <control type="image">
-                <posx>230</posx>
-                <posy>288</posy>
+                <left>230</left>
+                <top>288</top>
                 <width>915</width>
                 <height>315</height>
                 <texture>music_fanart_diffuse.png</texture>
             </control>
             <control type="fadelabel">
-                <posx>230</posx>
-                <posy>171</posy>
+                <left>230</left>
+                <top>171</top>
                 <height>30</height>
                 <width>1050</width>
                 <font>Home_menu</font>
@@ -41,8 +41,8 @@
                 <scrollspeed>50</scrollspeed>
             </control>
             <control type="label">
-                <posx>230</posx>
-                <posy>230</posy>
+                <left>230</left>
+                <top>230</top>
                 <width>1050</width>
                 <height>50</height>
                 <aligny>top</aligny>
@@ -53,8 +53,8 @@
             <control type="group">
                 <control type="textbox" id="400">
                     <description>Plot value</description>
-                    <posx>250</posx>
-                    <posy>302</posy>
+                    <left>250</left>
+                    <top>302</top>
                     <width>870</width>
                     <height>245</height>
                     <align>justify</align>
@@ -63,23 +63,23 @@
                 </control>
                 <control type="label">
                     <description>Duration</description>
-                    <posx>315</posx>
-                    <posy>552</posy>
+                    <left>315</left>
+                    <top>552</top>
                     <width>170</width>
                     <align>right</align>
                     <label>$LOCALIZE[180]:</label>
                 </control>
                 <control type="label">
                     <description>Duration value</description>
-                    <posx>325</posx>
-                    <posy>552</posy>
+                    <left>325</left>
+                    <top>552</top>
                     <width>470</width>
                     <font>Sort_Font_Small</font>
                     <label>[COLOR Accent]$INFO[ListItem.Duration][/COLOR]</label>
                 </control>
                 <control type="grouplist" id="9000">
-                    <posx>25</posx>
-                    <posy>240</posy>
+                    <left>25</left>
+                    <top>240</top>
                     <width>180</width>
                     <height>430</height>
                     <itemgap>-</itemgap>

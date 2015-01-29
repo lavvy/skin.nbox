@@ -26,8 +26,8 @@
                 <effect type="fade" start="100" end="0" time="400" />
             </animation>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>1280</width>
                 <height>672</height>
                 <texture>tile.png</texture>
@@ -36,8 +36,8 @@
             </control>
             <control type="image">
                 <description>Music bar</description>
-                <posx>0</posx>
-                <posy>440</posy>
+                <left>0</left>
+                <top>440</top>
                 <width>1280</width>
                 <height>232</height>
                 <fadetime>200</fadetime>
@@ -50,8 +50,8 @@
             </control>
             <control type="image">
                 <description>Music cover image</description>
-                <posx>148</posx>
-                <posy>440</posy>
+                <left>148</left>
+                <top>440</top>
                 <width>232</width>
                 <height>232</height>
                 <fadetime>400</fadetime>
@@ -60,12 +60,12 @@
                 <texture background="true">$INFO[MusicPlayer.cover]</texture>
             </control>
             <control type="group">
-                <posx>325</posx>
-                <posy>505</posy>
+                <left>325</left>
+                <top>505</top>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>72</posx>
-                    <posy>0</posy>
+                    <left>72</left>
+                    <top>0</top>
                     <width>1220</width>
                     <label>[COLOR Accent]$INFO[MusicPlayer.Title,,][/COLOR] $INFO[MusicPlayer.PlaylistPosition]$INFO[MusicPlayer.PlaylistLength, / ]</label>
                     <scroll>true</scroll>
@@ -74,8 +74,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>72</posx>
-                    <posy>38</posy>
+                    <left>72</left>
+                    <top>38</top>
                     <width>700</width>
                     <label>$INFO[MusicPlayer.Album,,][COLOR Accent] $INFO[MusicPlayer.Artist,,][/COLOR]</label>
                     <scroll>true</scroll>
@@ -84,8 +84,8 @@
                 </control>
                 <control type="image">
                     <description>Rating image</description>
-                    <posx>72</posx>
-                    <posy>75</posy>
+                    <left>72</left>
+                    <top>75</top>
                     <width>130</width>
                     <height>25</height>
                     <aspectratio align="left">keep</aspectratio>
@@ -100,8 +100,8 @@
             </animation>
             <control type="progress">
                 <description>Progressbar</description>
-                <posx>0</posx>
-                <posy>715</posy>
+                <left>0</left>
+                <top>715</top>
                 <width>1280</width>
                 <height>5</height>
                 <info>Player.Progress</info>
@@ -110,8 +110,8 @@
             </control>
             <control type="label">
                 <description>Player Times</description>
-                <posx>30</posx>
-                <posy>670</posy>
+                <left>30</left>
+                <top>670</top>
                 <width>120</width>
                 <label>$INFO[MusicPlayer.Time]</label>
                 <align>left</align>
@@ -120,8 +120,8 @@
             </control>
             <control type="label">
                 <description>Player Times</description>
-                <posx>1250</posx>
-                <posy>670</posy>
+                <left>1250</left>
+                <top>670</top>
                 <width>120</width>
                 <label>$INFO[MusicPlayer.TimeRemaining,-]</label>
                 <align>right</align>

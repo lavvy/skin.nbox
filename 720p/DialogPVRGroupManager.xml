@@ -14,8 +14,8 @@
             </animation>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[19146][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>190</posy>
+                <left>70</left>
+                <top>190</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -23,8 +23,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$INFO[Container(13).ListItem.Label][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -32,11 +32,11 @@
             </control>
             <control type="group">
                 <description>Group list</description>
-                <posx>360</posx>
-                <posy>288</posy>
+                <left>360</left>
+                <top>288</top>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>305</width>
                     <height>315</height>
                     <texture>music_fanart_diffuse.png</texture>
@@ -45,14 +45,14 @@
                 </control>
                 <control type="label">
                     <description>name label</description>
-                    <posx>10</posx>
-                    <posy>0</posy>
+                    <left>10</left>
+                    <top>0</top>
                     <width>280</width>
                     <label>[B]$LOCALIZE[31506][/B]</label>
                 </control>
                 <control type="list" id="13">
-                    <posx>0</posx>
-                    <posy>45</posy>
+                    <left>0</left>
+                    <top>45</top>
                     <width>305</width>
                     <height>270</height>
                     <ondown>13</ondown>
@@ -63,8 +63,8 @@
                     <scrolltime>200</scrolltime>
                     <itemlayout height="45">
                         <control type="label">
-                            <posx>10</posx>
-                            <posy>0</posy>
+                            <left>10</left>
+                            <top>0</top>
                             <width>290</width>
                             <height>40</height>
                             <info>ListItem.Label</info>
@@ -72,16 +72,16 @@
                     </itemlayout>
                     <focusedlayout height="45">
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>305</width>
                             <height>40</height>
                             <texture border="5">other_textures/buttonfo.png</texture>
                             <visible>Control.HasFocus(13)</visible>
                         </control>
                         <control type="label">
-                            <posx>10</posx>
-                            <posy>0</posy>
+                            <left>10</left>
+                            <top>0</top>
                             <width>290</width>
                             <height>40</height>
                             <textcolor>Accent</textcolor>
@@ -90,8 +90,8 @@
                     </focusedlayout>
                 </control>
                 <control type="scrollbar" id="73">
-                    <posx>299</posx>
-                    <posy>0</posy>
+                    <left>299</left>
+                    <top>0</top>
                     <width>6</width>
                     <height>315</height>
                     <texturesliderbackground></texturesliderbackground>
@@ -105,11 +105,11 @@
             </control>
             <control type="group">
                 <description>Channels list</description>
-                <posx>670</posx>
-                <posy>288</posy>
+                <left>670</left>
+                <top>288</top>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>300</width>
                     <height>315</height>
                     <texture>music_fanart_diffuse.png</texture>
@@ -118,14 +118,14 @@
                 </control>
                 <control type="label">
                     <description>name label</description>
-                    <posx>10</posx>
-                    <posy>0</posy>
+                    <left>10</left>
+                    <top>0</top>
                     <width>280</width>
                     <label>[B]$LOCALIZE[19022][/B]</label>
                 </control>
                 <control type="list" id="11">
-                    <posx>0</posx>
-                    <posy>45</posy>
+                    <left>0</left>
+                    <top>45</top>
                     <width>300</width>
                     <height>270</height>
                     <onup>11</onup>
@@ -136,21 +136,21 @@
                     <scrolltime>200</scrolltime>
                     <itemlayout height="45">
                         <control type="label">
-                            <posx>22</posx>
+                            <left>22</left>
                             <width>45</width>
                             <align>center</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
                         </control>
                         <control type="label">
-                            <posx>65</posx>
+                            <left>65</left>
                             <width>235</width>
                             <label>$INFO[ListItem.ChannelName]</label>
                         </control>
                     </itemlayout>
                     <focusedlayout height="45">
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>300</width>
                             <height>40</height>
                             <texture border="5">other_textures/buttonfo.png</texture>
@@ -166,13 +166,13 @@
                             <visible>Control.HasFocus(11)</visible>
                         </control>
                         <control type="label">
-                            <posx>22</posx>
+                            <left>22</left>
                             <width>45</width>
                             <align>center</align>
                             <label>[B]$INFO[ListItem.ChannelNumber][/B]</label>
                         </control>
                         <control type="label">
-                            <posx>65</posx>
+                            <left>65</left>
                             <width>235</width>
                             <textcolor>Accent</textcolor>
                             <label>$INFO[ListItem.ChannelName]</label>
@@ -180,8 +180,8 @@
                     </focusedlayout>
                 </control>
                 <control type="scrollbar" id="71">
-                    <posx>294</posx>
-                    <posy>0</posy>
+                    <left>294</left>
+                    <top>0</top>
                     <width>6</width>
                     <height>315</height>
                     <texturesliderbackground></texturesliderbackground>
@@ -195,11 +195,11 @@
             </control>
             <control type="group">
                 <description>Grouped Channels list</description>
-                <posx>975</posx>
-                <posy>288</posy>
+                <left>975</left>
+                <top>288</top>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>305</width>
                     <height>315</height>
                     <texture>music_fanart_diffuse.png</texture>
@@ -208,14 +208,14 @@
                 </control>
                 <control type="label">
                     <description>name label</description>
-                    <posx>10</posx>
-                    <posy>0</posy>
+                    <left>10</left>
+                    <top>0</top>
                     <width>280</width>
                     <label>[B]$LOCALIZE[19218][/B]</label>
                 </control>
                 <control type="list" id="12">
-                    <posx>0</posx>
-                    <posy>45</posy>
+                    <left>0</left>
+                    <top>45</top>
                     <width>305</width>
                     <height>270</height>
                     <onup>12</onup>
@@ -226,21 +226,21 @@
                     <scrolltime>200</scrolltime>
                     <itemlayout height="45">
                         <control type="label">
-                            <posx>22</posx>
+                            <left>22</left>
                             <width>45</width>
                             <align>center</align>
                             <label>$INFO[ListItem.ChannelNumber]</label>
                         </control>
                         <control type="label">
-                            <posx>65</posx>
+                            <left>65</left>
                             <width>235</width>
                             <label>$INFO[ListItem.ChannelName]</label>
                         </control>
                     </itemlayout>
                     <focusedlayout height="45">
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>300</width>
                             <height>40</height>
                             <texture border="5">other_textures/buttonfo.png</texture>
@@ -256,13 +256,13 @@
                             <visible>Control.HasFocus(12)</visible>
                         </control>
                         <control type="label">
-                            <posx>22</posx>
+                            <left>22</left>
                             <width>45</width>
                             <align>center</align>
                             <label>[B]$INFO[ListItem.ChannelNumber][/B]</label>
                         </control>
                         <control type="label">
-                            <posx>65</posx>
+                            <left>65</left>
                             <width>235</width>
                             <textcolor>Accent</textcolor>
                             <label>$INFO[ListItem.ChannelName]</label>
@@ -270,8 +270,8 @@
                     </focusedlayout>
                 </control>
                 <control type="scrollbar" id="72">
-                    <posx>299</posx>
-                    <posy>0</posy>
+                    <left>299</left>
+                    <top>0</top>
                     <width>6</width>
                     <height>315</height>
                     <texturesliderbackground></texturesliderbackground>
@@ -284,8 +284,8 @@
                 </control>
             </control>
             <control type="grouplist" id="9000">
-                <posx>10</posx>
-                <posy>288</posy>
+                <left>10</left>
+                <top>288</top>
                 <width>300</width>
                 <height>370</height>
                 <itemgap>2</itemgap>

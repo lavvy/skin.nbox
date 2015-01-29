@@ -7,8 +7,8 @@
         <include>HomeBackground</include>
         <include>View_50_List</include>
         <control type="grouplist" id="9000">
-            <posx>10</posx>
-            <posy>140</posy>
+            <left>10</left>
+            <top>140</top>
             <width>220</width>
             <height>600</height>
             <itemgap>2</itemgap>

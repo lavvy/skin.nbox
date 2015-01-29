@@ -2,8 +2,8 @@
 <includes>
     <include name="Viewtype_MusicVideos">
         <control type="image">
-            <posx>-12</posx>
-            <posy>174</posy>
+            <left>-12</left>
+            <top>174</top>
             <width>72</width>
             <height>72</height>
             <texture background="true">other_textures/osd/playlistnf.png</texture>
@@ -42,8 +42,8 @@
                 <effect type="slide" start="+1500,0" time="300" />
             </animation>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>315</width>
                 <height>315</height>
                 <texture>white_box.png</texture>
@@ -52,8 +52,8 @@
                 <visible>!StringCompare(ListItem.Title, )</visible>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>315</width>
                 <height>315</height>
                 <texture fallback="defaultvideo.png" background="true">$INFO[ListItem.Thumb]</texture>
@@ -63,8 +63,8 @@
                 <bordersize>4</bordersize>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>215</width>
                 <height>315</height>
                 <texture fallback="defaultfolderback.png" background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
@@ -74,8 +74,8 @@
                 <bordersize>4</bordersize>
             </control>
             <control type="panel" id="59">
-                <posx>395</posx>
-                <posy>288</posy>
+                <left>395</left>
+                <top>288</top>
                 <width>875</width>
                 <height>320</height>
                 <scrolltime>200</scrolltime>
@@ -94,16 +94,16 @@
                 <visible>Container.Content(musicvideos)</visible>
                 <itemlayout width="175" height="160">
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>170</width>
                         <height>155</height>
                         <texture>tile.png</texture>
                         <aspectratio>scale</aspectratio>
                     </control>
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>170</width>
                         <height>155</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -112,16 +112,16 @@
                     </control>
                     <control type="label">
                         <label>$INFO[ListItem.Title]</label>
-                        <posx>6</posx>
-                        <posy>121</posy>
+                        <left>6</left>
+                        <top>121</top>
                         <height>30</height>
                         <width>158</width>
                         <font>button_bold</font>
                         <align>left</align>
                     </control>
                     <control type="image">
-                        <posx>110</posx>
-                        <posy>-</posy>
+                        <left>110</left>
+                        <top>-</top>
                         <width>60</width>
                         <height>60</height>
                         <texture>watched.png</texture>
@@ -132,8 +132,8 @@
                         <visible>[Container.Content(musicvideos) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [Container.Content(TVShows) + stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
                     </control>
                     <control type="image">
-                        <posx>110</posx>
-                        <posy>-</posy>
+                        <left>110</left>
+                        <top>-</top>
                         <width>60</width>
                         <height>60</height>
                         <texture>watching.png</texture>
@@ -146,8 +146,8 @@
                 </itemlayout>
                 <focusedlayout width="175" height="160">
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>170</width>
                         <height>155</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -155,20 +155,20 @@
                         <animation effect="fade" start="50" time="400" easing="out" tween="square">Focus</animation>
                     </control>
                     <control type="group">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <animation effect="fade" start="50" time="400" easing="out" tween="square">Focus</animation>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>170</width>
                             <height>155</height>
                             <texture>button_fade.png</texture>
                         </control>
                     </control>
                     <control type="image">
-                        <posx>110</posx>
-                        <posy>0</posy>
+                        <left>110</left>
+                        <top>0</top>
                         <width>60</width>
                         <height>60</height>
                         <texture>watched.png</texture>
@@ -179,8 +179,8 @@
                         <visible>[Container.Content(musicvideos) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [Container.Content(TVShows) + stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
                     </control>
                     <control type="image">
-                        <posx>110</posx>
-                        <posy>0</posy>
+                        <left>110</left>
+                        <top>0</top>
                         <width>60</width>
                         <height>60</height>
                         <texture>watching.png</texture>
@@ -192,8 +192,8 @@
                     </control>
                     <control type="label">
                         <label>[COLOR Accent]$INFO[ListItem.Title][/COLOR]</label>
-                        <posx>6</posx>
-                        <posy>121</posy>
+                        <left>6</left>
+                        <top>121</top>
                         <height>30</height>
                         <width>158</width>
                         <font>button_bold</font>
@@ -203,8 +203,8 @@
             </control>
             <control type="fadelabel">
                 <label>[COLOR Accent]$INFO[ListItem.Album][/COLOR] $INFO[ListItem.Year]</label>
-                <posx>395</posx>
-                <posy>171</posy>
+                <left>395</left>
+                <top>171</top>
                 <height>30</height>
                 <width>885</width>
                 <font>Home_menu</font>
@@ -215,8 +215,8 @@
                 <aligny>top</aligny>
             </control>
             <control type="label">
-                <posx>395</posx>
-                <posy>210</posy>
+                <left>395</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -225,8 +225,8 @@
                 <label>[COLOR Accent]$INFO[ListItem.Artist,[COLOR White][LOWERCASE]$LOCALIZE[557][/LOWERCASE]: [/COLOR]][/COLOR]</label>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -236,8 +236,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[2][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>400</width>
                 <font>Home_header</font>
@@ -245,8 +245,8 @@
                 <align>left</align>
             </control>
             <control type="scrollbar" id="63">
-                <posx>1274</posx>
-                <posy>288</posy>
+                <left>1274</left>
+                <top>288</top>
                 <width>6</width>
                 <height>315</height>
                 <texturesliderbackground></texturesliderbackground>

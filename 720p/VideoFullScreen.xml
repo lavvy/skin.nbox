@@ -4,22 +4,22 @@
     <controls>
         <control type="label" id="10">
             <description>row 1 label</description>
-            <posx>20</posx>
-            <posy>32</posy>
+            <left>20</left>
+            <top>32</top>
             <label></label>
             <shadowcolor>black</shadowcolor>
         </control>
         <control type="label" id="11">
             <description>row 2 label</description>
-            <posx>20</posx>
-            <posy>64</posy>
+            <left>20</left>
+            <top>64</top>
             <label></label>
             <shadowcolor>black</shadowcolor>
         </control>
         <control type="label" id="12">
             <description>row 3 label</description>
-            <posx>20</posx>
-            <posy>96</posy>
+            <left>20</left>
+            <top>96</top>
             <label></label>
             <shadowcolor>black</shadowcolor>
         </control>

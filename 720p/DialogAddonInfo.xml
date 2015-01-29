@@ -5,8 +5,8 @@
     <controls>
         <include>GlobalOverlay</include>
         <control type="group">
-            <posx>880</posx>
-            <posy>0</posy>
+            <left>880</left>
+            <top>0</top>
             <visible>!Window.IsVisible(AddonSettings) + !Window.IsActive(TextViewer)</visible>
             <animation type="WindowOpen">
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" />
@@ -21,16 +21,16 @@
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" />
             </animation>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>440</width>
                 <height>720</height>
                 <texture border="22">button.png</texture>
             </control>
             <control type="fadelabel">
                 <description>Menu Title</description>
-                <posx>30</posx>
-                <posy>70</posy>
+                <left>30</left>
+                <top>70</top>
                 <width>370</width>
                 <label>$INFO[ListItem.Property(Addon.Name)]</label>
                 <font>Home_sub_header</font>
@@ -38,8 +38,8 @@
                 <textcolor>black</textcolor>
             </control>
             <control type="group">
-                <posx>30</posx>
-                <posy>180</posy>
+                <left>30</left>
+                <top>180</top>
                 <width>340</width>
                 <control type="grouplist" id="9000">
                     <width>340</width>
@@ -88,7 +88,7 @@
                     </control>
                 </control>
                 <control type="textbox">
-                    <posy>420</posy>
+                    <top>420</top>
                     <description>Disclaimer</description>
                     <width>340</width>
                     <height>95</height>
@@ -99,7 +99,7 @@
                 </control>
                 <control type="group">
                     <visible>!IsEmpty(ListItem.Property(Addon.Broken))</visible>
-                    <posy>280</posy>
+                    <top>280</top>
                     <control type="textbox">
                         <description>Reason label</description>
                         <width>340</width>

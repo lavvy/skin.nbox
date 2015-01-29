@@ -31,8 +31,8 @@
             </animation>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[5][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>190</posy>
+                <left>70</left>
+                <top>190</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -40,8 +40,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[31703][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -50,8 +50,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[480][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -60,8 +60,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[705][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -70,8 +70,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[10006][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -80,8 +80,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[13000][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -90,8 +90,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[2][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -100,8 +100,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[8][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -110,8 +110,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[0][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -120,8 +120,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[1][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -130,8 +130,8 @@
             </control>
             <control type="grouplist" id="3">
                 <description>Button Area</description>
-                <posx>10</posx>
-                <posy>280</posy>
+                <left>10</left>
+                <top>280</top>
                 <width>300</width>
                 <height>370</height>
                 <itemgap>2</itemgap>
@@ -143,8 +143,8 @@
             </control>
             <control type="grouplist" id="5">
                 <description>Control Area</description>
-                <posx>340</posx>
-                <posy>280</posy>
+                <left>340</left>
+                <top>280</top>
                 <width>820</width>
                 <height>330</height>
                 <itemgap>2</itemgap>
@@ -161,7 +161,7 @@
             </control>
             <control type="radiobutton" id="8">
                 <description>Default Radio Button</description>
-                <radioposx>770</radioposx>
+                <radioleft>770</radioleft>
                 <align>left</align>
                 <focusedcolor>Accent</focusedcolor>
                 <textureradiofocus>other_textures/radiobutton2fo.png</textureradiofocus>
@@ -182,8 +182,8 @@
                 <focusedcolor>Accent</focusedcolor>
             </control>
             <control type="image">
-                <posx>1200</posx>
-                <posy>280</posy>
+                <left>1200</left>
+                <top>280</top>
                 <width>40</width>
                 <height>40</height>
                 <texture flipy="true">down_arrow.png</texture>
@@ -191,8 +191,8 @@
                 <animation effect="fade" time="400">VisibleChange</animation>
             </control>
             <control type="image">
-                <posx>1200</posx>
-                <posy>566</posy>
+                <left>1200</left>
+                <top>566</top>
                 <width>40</width>
                 <height>40</height>
                 <texture>down_arrow.png</texture>

@@ -19,8 +19,8 @@
             <control type="group">
                 <control type="image">
                     <description>Music bar</description>
-                    <posx>0</posx>
-                    <posy>440</posy>
+                    <left>0</left>
+                    <top>440</top>
                     <width>1280</width>
                     <height>232</height>
                     <fadetime>200</fadetime>
@@ -33,8 +33,8 @@
                 </control>
                 <control type="image">
                     <description>Music cover image</description>
-                    <posx>148</posx>
-                    <posy>440</posy>
+                    <left>148</left>
+                    <top>440</top>
                     <width>232</width>
                     <height>232</height>
                     <fadetime>400</fadetime>
@@ -43,12 +43,12 @@
                     <texture background="true">$INFO[MusicPlayer.cover]</texture>
                 </control>
                 <control type="group">
-                    <posx>325</posx>
-                    <posy>505</posy>
+                    <left>325</left>
+                    <top>505</top>
                     <control type="label">
                         <description>Now Playing</description>
-                        <posx>72</posx>
-                        <posy>0</posy>
+                        <left>72</left>
+                        <top>0</top>
                         <width>1220</width>
                         <label>[COLOR Accent]$INFO[MusicPlayer.Title,,][/COLOR] $INFO[MusicPlayer.PlaylistPosition]$INFO[MusicPlayer.PlaylistLength, / ]</label>
                         <scroll>true</scroll>
@@ -57,8 +57,8 @@
                     </control>
                     <control type="label">
                         <description>Now Playing</description>
-                        <posx>72</posx>
-                        <posy>38</posy>
+                        <left>72</left>
+                        <top>38</top>
                         <width>700</width>
                         <label>$INFO[MusicPlayer.Album,,][COLOR Accent] $INFO[MusicPlayer.Artist,,][/COLOR]</label>
                         <scroll>true</scroll>
@@ -67,8 +67,8 @@
                     </control>
                     <control type="image">
                         <description>Rating image</description>
-                        <posx>72</posx>
-                        <posy>75</posy>
+                        <left>72</left>
+                        <top>75</top>
                         <width>130</width>
                         <height>25</height>
                         <aspectratio align="left">keep</aspectratio>
@@ -83,8 +83,8 @@
                 </animation>
                 <control type="progress">
                     <description>Progressbar</description>
-                    <posx>0</posx>
-                    <posy>715</posy>
+                    <left>0</left>
+                    <top>715</top>
                     <width>1280</width>
                     <height>5</height>
                     <info>Player.Progress</info>
@@ -93,8 +93,8 @@
                 </control>
                 <control type="label">
                     <description>Player Times</description>
-                    <posx>30</posx>
-                    <posy>670</posy>
+                    <left>30</left>
+                    <top>670</top>
                     <width>120</width>
                     <label>$INFO[MusicPlayer.Time]</label>
                     <align>left</align>
@@ -103,8 +103,8 @@
                 </control>
                 <control type="label">
                     <description>Player Times</description>
-                    <posx>1250</posx>
-                    <posy>670</posy>
+                    <left>1250</left>
+                    <top>670</top>
                     <width>120</width>
                     <label>$INFO[MusicPlayer.TimeRemaining,-]</label>
                     <align>right</align>
@@ -113,8 +113,8 @@
                 </control>
             </control>
             <control type="button" id="12">
-                <posx>-12</posx>
-                <posy>174</posy>
+                <left>-12</left>
+                <top>174</top>
                 <width>72</width>
                 <height>72</height>
                 <label>10517</label>
@@ -142,8 +142,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[2][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -152,8 +152,8 @@
                 <visible>!Window.IsVisible(122)</visible>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -171,11 +171,11 @@
                     <effect type="zoom" start="100" end="108" time="400" center="640,360" tween="cubic" easing="out" />
                     <effect type="fade" start="100" end="0" time="400" />
                 </animation>
-                <posx>0</posx>
-                <posy>10</posy>
+                <left>0</left>
+                <top>10</top>
                 <control type="button" id="13">
-                    <posx>37</posx>
-                    <posy>536</posy>
+                    <left>37</left>
+                    <top>536</top>
                     <width>74</width>
                     <height>74</height>
                     <label>210</label>
@@ -190,8 +190,8 @@
                 </control>
                 <control type="button" id="14">
                     <description>rewind</description>
-                    <posx>540</posx>
-                    <posy>599</posy>
+                    <left>540</left>
+                    <top>599</top>
                     <width>40</width>
                     <height>40</height>
                     <label>31036</label>
@@ -206,8 +206,8 @@
                 </control>
                 <control type="togglebutton" id="15">
                     <description>Play/pause</description>
-                    <posx>585</posx>
-                    <posy>587</posy>
+                    <left>585</left>
+                    <top>587</top>
                     <width>66</width>
                     <height>66</height>
                     <label>31037</label>
@@ -226,8 +226,8 @@
                 </control>
                 <control type="button" id="16">
                     <description>Stop</description>
-                    <posx>655</posx>
-                    <posy>599</posy>
+                    <left>655</left>
+                    <top>599</top>
                     <width>40</width>
                     <height>40</height>
                     <label>31038</label>
@@ -242,8 +242,8 @@
                 </control>
                 <control type="button" id="17">
                     <description>Fast Forward</description>
-                    <posx>700</posx>
-                    <posy>599</posy>
+                    <left>700</left>
+                    <top>599</top>
                     <width>40</width>
                     <height>40</height>
                     <label>31039</label>
@@ -257,8 +257,8 @@
                     <onclick>PlayerControl(Forward)</onclick>
                 </control>
                 <control type="button" id="18">
-                    <posx>1168</posx>
-                    <posy>536</posy>
+                    <left>1168</left>
+                    <top>536</top>
                     <width>74</width>
                     <height>74</height>
                     <label>209</label>
@@ -272,8 +272,8 @@
                     <onclick>PlayerControl(Next)</onclick>
                 </control>
                 <control type="grouplist" id="102">
-                    <posx>40</posx>
-                    <posy>12</posy>
+                    <left>40</left>
+                    <top>12</top>
                     <width>500</width>
                     <height>60</height>
                     <itemgap>2</itemgap>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <includes>
     <default type="label">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <label></label>
         <height>44</height>
         <align>left</align>
@@ -14,8 +14,8 @@
         <disabledcolor>Red</disabledcolor>
     </default>
     <default type="fadelabel">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <height>44</height>
         <label></label>
         <align>left</align>
@@ -29,8 +29,8 @@
         <pauseatend>2000</pauseatend>
     </default>
     <default type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>-</width>
         <height>-</height>
         <align>center</align>
@@ -38,8 +38,8 @@
         <texture>-</texture>
     </default>
     <default type="button">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>300</width>
         <height>44</height>
         <align>center</align>
@@ -55,8 +55,8 @@
         <pulseonselect>false</pulseonselect>
     </default>
     <default type="togglebutton">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>300</width>
         <height>44</height>
         <label></label>
@@ -74,8 +74,8 @@
         <pulseonselect>false</pulseonselect>
     </default>
     <default type="radiobutton">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>300</width>
         <height>44</height>
         <align>center</align>
@@ -95,8 +95,8 @@
         <pulseonselect>false</pulseonselect>
     </default>
     <default type="spincontrolex">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>300</width>
         <height>44</height>
         <label></label>
@@ -119,8 +119,8 @@
         <pulseonselect>false</pulseonselect>
     </default>
     <default type="spincontrol">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <height>15</height>
         <width>15</width>
         <spinwidth>26</spinwidth>
@@ -140,8 +140,8 @@
         <pulseonselect>false</pulseonselect>
     </default>
     <default type="sliderex">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <height>44</height>
         <width>300</width>
         <texturenofocus border="2">other_textures/buttonnf.png</texturenofocus>
@@ -159,8 +159,8 @@
         <textoffsety>10</textoffsety>
     </default>
     <default type="progress">
-        <posx>150</posx>
-        <posy>325</posy>
+        <left>150</left>
+        <top>325</top>
         <texturebg border="6">other_textures/osd/progressback.png</texturebg>
         <lefttexture>-</lefttexture>
         <midtexture border="6">other_textures/osd/progressmid.png</midtexture>
@@ -168,8 +168,8 @@
         <overlaytexture>-</overlaytexture>
     </default>
     <default type="slider">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>420</width>
         <height>15</height>
         <texturefocus>-</texturefocus>

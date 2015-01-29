@@ -16,8 +16,8 @@
     <include file="Viewtype_Panel_Square_List.xml" />
     <include file="Variables.xml" />
     <include name="HiddenButton">
-        <posx>-20</posx>
-        <posy>-20</posy>
+        <left>-20</left>
+        <top>-20</top>
         <width>1</width>
         <height>1</height>
         <label></label>
@@ -27,8 +27,8 @@
     <include name="BarClock">
         <control type="image" id="2">
             <description>top left bar</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>8</width>
             <height>100</height>
             <visible>true</visible>
@@ -38,8 +38,8 @@
         </control>
         <control type="label">
             <label>[LOWERCASE]$INFO[System.Time(hh:mm)][COLOR Accent]$INFO[System.Time(xx)][/COLOR][/LOWERCASE]</label>
-            <posx>1275</posx>
-            <posy>-20</posy>
+            <left>1275</left>
+            <top>-20</top>
             <height>100</height>
             <width>550</width>
             <font>Home_time</font>
@@ -47,8 +47,8 @@
         </control>
         <control type="label">
             <label>[LOWERCASE][COLOR Accent]$INFO[System.Date(DDD)][/COLOR] $INFO[System.Date(dd)] $INFO[System.Date(MMM)] [/LOWERCASE]</label>
-            <posx>1279</posx>
-            <posy>30</posy>
+            <left>1279</left>
+            <top>30</top>
             <height>100</height>
             <width>750</width>
             <font>Home_date</font>
@@ -56,8 +56,8 @@
         </control>
     </include>
     <include name="Dimensions_Fullscreen">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
     </include>
@@ -367,8 +367,8 @@
                 <animation effect="fade" time="2000">Hidden</animation>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>900</posy>
+                    <left>0</left>
+                    <top>900</top>
                     <width>1350</width>
                     <height>25</height>
                     <label>$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]</label>
@@ -381,8 +381,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>170</posx>
-                    <posy>900</posy>
+                    <left>170</left>
+                    <top>900</top>
                     <width>1350</width>
                     <label>$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist,,]$INFO[MusicPlayer.Artist,,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]</label>
                     <scroll>true</scroll>
@@ -400,8 +400,8 @@
                 <animation effect="fade" time="2000">Hidden</animation>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>100</posy>
+                    <left>0</left>
+                    <top>100</top>
                     <width>1350</width>
                     <height>25</height>
                     <label>$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]</label>
@@ -413,8 +413,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>200</posy>
+                    <left>0</left>
+                    <top>200</top>
                     <width>1350</width>
                     <label>$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist,,]$INFO[MusicPlayer.Artist,,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]</label>
                     <scroll>true</scroll>
@@ -431,8 +431,8 @@
                 <animation effect="fade" time="2000">Hidden</animation>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>450</posx>
-                    <posy>900</posy>
+                    <left>450</left>
+                    <top>900</top>
                     <width>1050</width>
                     <height>25</height>
                     <label>$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]$INFO[MusicPlayer.Album,  ,]</label>
@@ -444,8 +444,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>630</posx>
-                    <posy>900</posy>
+                    <left>630</left>
+                    <top>900</top>
                     <width>1350</width>
                     <label>$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist,,]$INFO[MusicPlayer.Artist,,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]$INFO[MusicPlayer.Artist, ,]</label>
                     <scroll>true</scroll>
@@ -466,8 +466,8 @@
                 <animation effect="fade" time="2000">Hidden</animation>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>900</posy>
+                    <left>0</left>
+                    <top>900</top>
                     <width>1350</width>
                     <height>25</height>
                     <label>$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]</label>
@@ -480,8 +480,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>170</posx>
-                    <posy>900</posy>
+                    <left>170</left>
+                    <top>900</top>
                     <width>1350</width>
                     <label>$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist,,]$INFO[ListItem.Artist,,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]</label>
                     <scroll>true</scroll>
@@ -499,8 +499,8 @@
                 <animation effect="fade" time="2000">Hidden</animation>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>100</posy>
+                    <left>0</left>
+                    <top>100</top>
                     <width>1350</width>
                     <height>25</height>
                     <label>$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]</label>
@@ -512,8 +512,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>200</posy>
+                    <left>0</left>
+                    <top>200</top>
                     <width>1350</width>
                     <label>$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist,,]$INFO[ListItem.Artist,,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]</label>
                     <scroll>true</scroll>
@@ -530,8 +530,8 @@
                 <animation effect="fade" time="2000">Hidden</animation>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>450</posx>
-                    <posy>900</posy>
+                    <left>450</left>
+                    <top>900</top>
                     <width>1050</width>
                     <height>25</height>
                     <label>$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]$INFO[ListItem.Album,  ,]</label>
@@ -543,8 +543,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>630</posx>
-                    <posy>900</posy>
+                    <left>630</left>
+                    <top>900</top>
                     <width>1350</width>
                     <label>$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist,,]$INFO[ListItem.Artist,,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]$INFO[ListItem.Artist, ,]</label>
                     <scroll>true</scroll>

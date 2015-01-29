@@ -5,8 +5,8 @@
     <controls>
         <include>GlobalOverlay</include>
         <control type="group">
-            <posx>880</posx>
-            <posy>0</posy>
+            <left>880</left>
+            <top>0</top>
             <animation type="WindowOpen">
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" />
             </animation>
@@ -15,8 +15,8 @@
             </animation>
             <control type="image">
                 <description>Large Icon Image</description>
-                <posx>-765</posx>
-                <posy>110</posy>
+                <left>-765</left>
+                <top>110</top>
                 <width>650</width>
                 <height>500</height>
                 <texture fallback="defaultaddonnone.png">$INFO[Container(3).ListItem.Icon]</texture>
@@ -32,16 +32,16 @@
                 </animation>
             </control>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>400</width>
                 <height>720</height>
                 <texture border="22">button.png</texture>
             </control>
             <control type="label" id="1">
                 <description>header label</description>
-                <posx>30</posx>
-                <posy>70</posy>
+                <left>30</left>
+                <top>70</top>
                 <width>400</width>
                 <font>Home_sub_header</font>
                 <align>left</align>
@@ -49,8 +49,8 @@
                 <label>[LOWERCASE]$LOCALIZE[13406][/LOWERCASE]</label>
             </control>
             <control type="list" id="3">
-                <posx>30</posx>
-                <posy>180</posy>
+                <left>30</left>
+                <top>180</top>
                 <width>340</width>
                 <height>440</height>
                 <itemgap>2</itemgap>
@@ -60,7 +60,7 @@
                 <ondown>3</ondown>
                 <itemlayout height="48">
                     <control type="label">
-                        <posx>340</posx>
+                        <left>340</left>
                         <width>340</width>
                         <label>$INFO[ListItem.Label] $INFO[ListItem.Label2]</label>
                         <textcolor>black</textcolor>
@@ -76,7 +76,7 @@
                         <animation effect="fade" start="100" end="50" condition="!Control.HasFocus(450)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <posx>340</posx>
+                        <left>340</left>
                         <width>340</width>
                         <label>$INFO[ListItem.Label] $INFO[ListItem.Label2]</label>
                         <align>right</align>
@@ -86,8 +86,8 @@
             </control>
             <control type="label" id="2">
                 <description>Number Of Files</description>
-                <posx>10</posx>
-                <posy>660</posy>
+                <left>10</left>
+                <top>660</top>
                 <width>180</width>
                 <align>center</align>
                 <font>Medium</font>
@@ -96,8 +96,8 @@
             </control>
             <control type="button" id="5">
                 <description>Manual</description>
-                <posx>210</posx>
-                <posy>660</posy>
+                <left>210</left>
+                <top>660</top>
                 <width>180</width>
                 <label>368</label>
                 <onleft>3</onleft>

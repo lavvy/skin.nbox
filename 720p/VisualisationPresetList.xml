@@ -18,8 +18,8 @@
         <control type="group">
             <control type="label" id="3">
                 <description>Heading</description>
-                <posx>48</posx>
-                <posy>10</posy>
+                <left>48</left>
+                <top>10</top>
                 <width>760</width>
                 <align>Left</align>
                 <font>Large</font>
@@ -28,8 +28,8 @@
             </control>
             <control type="label" id="4">
                 <description>No Settings Label</description>
-                <posx>48</posx>
-                <posy>60</posy>
+                <left>48</left>
+                <top>60</top>
                 <width>760</width>
                 <height>45</height>
                 <align>left</align>
@@ -39,8 +39,8 @@
             </control>
             <control type="list" id="2">
                 <description>Preset List</description>
-                <posx>30</posx>
-                <posy>70</posy>
+                <left>30</left>
+                <top>70</top>
                 <width>760</width>
                 <height>315</height>
                 <onleft>noop</onleft>
@@ -49,14 +49,14 @@
                 <ondown>2</ondown>
                 <itemlayout height="45">
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>760</width>
                         <height>45</height>
                         <texture border="3">other_textures/buttonnf.png</texture>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>660</width>
                         <aligny>center</aligny>
                         <align>left</align>
@@ -65,14 +65,14 @@
                 </itemlayout>
                 <focusedlayout height="45">
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>760</width>
                         <height>45</height>
                         <texture border="3">other_textures/buttonfo.png</texture>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>660</width>
                         <aligny>center</aligny>
                         <align>left</align>
@@ -82,8 +82,8 @@
             </control>
         </control>
         <control type="image">
-            <posx>800</posx>
-            <posy>85</posy>
+            <left>800</left>
+            <top>85</top>
             <width>40</width>
             <height>40</height>
             <texture flipy="true">down_arrow.png</texture>
@@ -91,8 +91,8 @@
             <animation effect="fade" time="400">VisibleChange</animation>
         </control>
         <control type="image">
-            <posx>800</posx>
-            <posy>405</posy>
+            <left>800</left>
+            <top>405</top>
             <width>40</width>
             <height>40</height>
             <texture>down_arrow.png</texture>

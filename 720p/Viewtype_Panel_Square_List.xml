@@ -2,8 +2,8 @@
 <includes>
     <include name="Viewtype_Panel_Square_List">
         <control type="image">
-            <posx>-12</posx>
-            <posy>174</posy>
+            <left>-12</left>
+            <top>174</top>
             <width>72</width>
             <height>72</height>
             <texture background="true">other_textures/osd/playlistnf.png</texture>
@@ -40,8 +40,8 @@
                 <effect type="slide" start="+1500,0" time="300" />
             </animation>
             <control type="image">
-                <posx>396</posx>
-                <posy>288</posy>
+                <left>396</left>
+                <top>288</top>
                 <width>395</width>
                 <height>315</height>
                 <texture>music_fanart_diffuse.png</texture>
@@ -50,8 +50,8 @@
             </control>
             <control type="list" id="58">
                 <viewtype label="Album List View">Album List View</viewtype>
-                <posx>396</posx>
-                <posy>288</posy>
+                <left>396</left>
+                <top>288</top>
                 <width>395</width>
                 <height>315</height>
                 <scrolltime>200</scrolltime>
@@ -66,7 +66,7 @@
                         <texture border="2">other_textures/buttonnf.png</texture>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>355</width>
                         <label>$INFO[ListItem.Label]</label>
                     </control>
@@ -79,15 +79,15 @@
                         <animation effect="fade" start="100" end="50" condition="!Control.HasFocus(58)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>355</width>
                         <label>[COLOR White][B]$INFO[ListItem.Label][/B][/COLOR]</label>
                     </control>
                 </focusedlayout>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>315</width>
                 <height>315</height>
                 <texture>white_box.png</texture>
@@ -96,8 +96,8 @@
                 <visible>!StringCompare(ListItem.Album, )</visible>
             </control>
             <control type="image">
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>315</width>
                 <height>315</height>
                 <texture>$INFO[ListItem.Icon]</texture>
@@ -107,8 +107,8 @@
                 <bordersize>4</bordersize>
             </control>
             <control type="image">
-                <posx>796</posx>
-                <posy>288</posy>
+                <left>796</left>
+                <top>288</top>
                 <width>485</width>
                 <height>315</height>
                 <texture>music_fanart_diffuse.png</texture>
@@ -116,8 +116,8 @@
                 <aspectratio scalediffuse="false">stretch</aspectratio>
             </control>
             <control type="scrollbar" id="61">
-                <posx>796</posx>
-                <posy>288</posy>
+                <left>796</left>
+                <top>288</top>
                 <width>6</width>
                 <height>315</height>
                 <texturesliderbackground></texturesliderbackground>
@@ -130,8 +130,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[2][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -139,8 +139,8 @@
                 <visible>Container.Content(Albums)</visible>
             </control>
             <control type="fadelabel" id="144">
-                <posx>815</posx>
-                <posy>300</posy>
+                <left>815</left>
+                <top>300</top>
                 <width>465</width>
                 <height>50</height>
                 <font>Artist_Font</font>
@@ -154,8 +154,8 @@
                 <visible>Container.Content(albums)</visible>
             </control>
             <control type="textbox">
-                <posx>815</posx>
-                <posy>360</posy>
+                <left>815</left>
+                <top>360</top>
                 <width>445</width>
                 <height>215</height>
                 <info>ListItem.Property(Album_Description)</info>
@@ -167,8 +167,8 @@
                 <visible>!IsEmpty(ListItem.Property(Album_Description))</visible>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -179,8 +179,8 @@
             </control>
             <control type="fadelabel">
                 <label>[COLOR Accent]$INFO[ListItem.Album][/COLOR] $INFO[ListItem.Year]</label>
-                <posx>395</posx>
-                <posy>171</posy>
+                <left>395</left>
+                <top>171</top>
                 <height>30</height>
                 <width>885</width>
                 <font>Home_menu</font>
@@ -192,8 +192,8 @@
                 <visible>Container.Content(Albums)</visible>
             </control>
             <control type="label">
-                <posx>395</posx>
-                <posy>210</posy>
+                <left>395</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -203,8 +203,8 @@
                 <visible>Container.Content(Albums) + !IsEmpty(ListItem.Genre)</visible>
             </control>
             <control type="label">
-                <posx>796</posx>
-                <posy>320</posy>
+                <left>796</left>
+                <top>320</top>
                 <width>485</width>
                 <height>50</height>
                 <align>center</align>

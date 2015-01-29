@@ -16,8 +16,8 @@
 			</animation>
 			<control type="label">
 				<label>[LOWERCASE]$LOCALIZE[744][/LOWERCASE]</label>
-				<posx>70</posx>
-				<posy>170</posy>
+				<left>70</left>
+				<top>170</top>
 				<height>30</height>
 				<width>400</width>
 				<font>Home_header</font>
@@ -25,8 +25,8 @@
 				<align>left</align>
 			</control>
 			<control type="label">
-				<posx>75</posx>
-				<posy>220</posy>
+				<left>75</left>
+				<top>220</top>
 				<width>300</width>
 				<align>left</align>
 				<aligny>top</aligny>
@@ -36,8 +36,8 @@
 			</control>
 			<control type="group">
 				<description>Left panel</description>
-				<posx>70</posx>
-				<posy>280</posy>
+				<left>70</left>
+				<top>280</top>
 				<control type="image">
 					<width>580</width>
 					<height>315</height>
@@ -45,7 +45,7 @@
 				</control>
 				<control type="label" id="101">
 					<description>Header Label</description>
-					<posx>20</posx>
+					<left>20</left>
 					<width>580</width>
 					<align>left</align>
 					<label></label>
@@ -54,8 +54,8 @@
 				</control>
 				<control type="list" id="20">
 					<description>Left File List</description>
-					<posx>0</posx>
-					<posy>45</posy>
+					<left>0</left>
+					<top>45</top>
 					<width>580</width>
 					<height>270</height>
 					<onleft>21</onleft>
@@ -70,13 +70,13 @@
 							<texture>other_textures/buttonnf.png</texture>
 						</control>
 						<control type="label">
-							<posx>20</posx>
+							<left>20</left>
 							<width>480</width>
 							<align>left</align>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="label">
-							<posx>560</posx>
+							<left>560</left>
 							<width>100</width>
 							<align>right</align>
 							<info>ListItem.Label2</info>
@@ -90,14 +90,14 @@
 							<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(20)">Conditional</animation>
 						</control>
 						<control type="label">
-							<posx>20</posx>
+							<left>20</left>
 							<width>480</width>
 							<align>left</align>
 							<info>ListItem.Label</info>
 							<textcolor>Accent</textcolor>
 						</control>
 						<control type="label">
-							<posx>560</posx>
+							<left>560</left>
 							<width>480</width>
 							<align>right</align>
 							<info>ListItem.Label2</info>
@@ -107,15 +107,15 @@
 				</control>
 				<control type="label" id="12">
 					<description>Header Label</description>
-					<posx>20</posx>
-					<posy>588</posy>
+					<left>20</left>
+					<top>588</top>
 					<width>320</width>
 					<align>left</align>
 					<label></label>
 				</control>
 				<control type="scrollbar" id="2000">
-					<posx>585</posx>
-					<posy>0</posy>
+					<left>585</left>
+					<top>0</top>
 					<width>6</width>
 					<height>315</height>
 					<texturesliderbackground></texturesliderbackground>
@@ -130,8 +130,8 @@
 			</control>
 			<control type="group">
 				<description>Right panel</description>
-				<posx>690</posx>
-				<posy>280</posy>
+				<left>690</left>
+				<top>280</top>
 				<control type="image">
 					<width>580</width>
 					<height>315</height>
@@ -139,7 +139,7 @@
 				</control>
 				<control type="label" id="102">
 					<description>Header Label</description>
-					<posx>20</posx>
+					<left>20</left>
 					<width>320</width>
 					<align>left</align>
 					<label></label>
@@ -148,8 +148,8 @@
 				</control>
 				<control type="list" id="21">
 					<description>Right File List</description>
-					<posx>0</posx>
-					<posy>45</posy>
+					<left>0</left>
+					<top>45</top>
 					<width>580</width>
 					<height>270</height>
 					<onleft>20</onleft>
@@ -164,13 +164,13 @@
 							<texture>other_textures/buttonnf.png</texture>
 						</control>
 						<control type="label">
-							<posx>20</posx>
+							<left>20</left>
 							<width>480</width>
 							<align>left</align>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="label">
-							<posx>560</posx>
+							<left>560</left>
 							<width>100</width>
 							<align>right</align>
 							<info>ListItem.Label2</info>
@@ -184,14 +184,14 @@
 							<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(21)">Conditional</animation>
 						</control>
 						<control type="label">
-							<posx>20</posx>
+							<left>20</left>
 							<width>480</width>
 							<align>left</align>
 							<info>ListItem.Label</info>
 							<textcolor>Accent</textcolor>
 						</control>
 						<control type="label">
-							<posx>560</posx>
+							<left>560</left>
 							<width>480</width>
 							<align>right</align>
 							<info>ListItem.Label2</info>
@@ -201,15 +201,15 @@
 				</control>
 				<control type="label" id="13">
 					<description>Header Label</description>
-					<posx>20</posx>
-					<posy>588</posy>
+					<left>20</left>
+					<top>588</top>
 					<width>320</width>
 					<align>left</align>
 					<label></label>
 				</control>
 				<control type="scrollbar" id="2100">
-					<posx>585</posx>
-					<posy>0</posy>
+					<left>585</left>
+					<top>0</top>
 					<width>6</width>
 					<height>315</height>
 					<texturesliderbackground></texturesliderbackground>

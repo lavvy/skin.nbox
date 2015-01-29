@@ -3,8 +3,8 @@
     <defaultcontrol always="true">11</defaultcontrol>
     <controls>
         <control type="group">
-            <posx>880</posx>
-            <posy>0</posy>
+            <left>880</left>
+            <top>0</top>
             <animation type="WindowOpen">
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" />
             </animation>
@@ -19,8 +19,8 @@
             </animation>
             <visible>!Window.IsVisible(DialogPVRGuideInfo.xml)</visible>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>400</width>
                 <height>720</height>
                 <texture>tile.png</texture>
@@ -29,8 +29,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$INFO[System.Time(hh:mm)][COLOR Accent]$INFO[System.Time(xx)][/COLOR][/LOWERCASE]</label>
-                <posx>395</posx>
-                <posy>-20</posy>
+                <left>395</left>
+                <top>-20</top>
                 <height>100</height>
                 <width>550</width>
                 <font>Home_time</font>
@@ -38,8 +38,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE][COLOR Accent]$INFO[System.Date(DDD)][/COLOR] $INFO[System.Date(dd)] $INFO[System.Date(MMM)] [/LOWERCASE]</label>
-                <posx>399</posx>
-                <posy>30</posy>
+                <left>399</left>
+                <top>30</top>
                 <height>100</height>
                 <width>750</width>
                 <font>Home_date</font>
@@ -47,8 +47,8 @@
             </control>
             <control type="label">
                 <description>header label</description>
-                <posx>30</posx>
-                <posy>120</posy>
+                <left>30</left>
+                <top>120</top>
                 <font>Home_sub_header</font>
                 <align>left</align>
                 <label>$INFO[VideoPlayer.ChannelGroup]</label>
@@ -56,24 +56,24 @@
             </control>
             <control type="label">
                 <description>header label</description>
-                <posx>30</posx>
-                <posy>120</posy>
+                <left>30</left>
+                <top>120</top>
                 <font>Home_sub_header</font>
                 <align>left</align>
                 <label>$INFO[MusicPlayer.ChannelGroup]</label>
                 <visible>pvr.IsPlayingRadio</visible>
             </control>
             <control type="fadelabel">
-                <posx>30</posx>
-                <posy>670</posy>
+                <left>30</left>
+                <top>670</top>
                 <width>340</width>
                 <font>Medium</font>
                 <align>left</align>
                 <label>[COLOR Accent]$INFO[Container(11).ListItem.NextTitle,[LOWERCASE][COLOR white]$LOCALIZE[19031]: [/COLOR][/LOWERCASE]][/COLOR]</label>
             </control>
             <control type="list" id="11">
-                <posx>30</posx>
-                <posy>180</posy>
+                <left>30</left>
+                <top>180</top>
                 <width>340</width>
                 <height>450</height>
                 <onleft>PreviousChannelGroup</onleft>
@@ -84,28 +84,28 @@
                 <scrolltime>200</scrolltime>
                 <itemlayout height="90">
                     <control type="label">
-                        <posx>22</posx>
+                        <left>22</left>
                         <width>45</width>
                         <align>center</align>
                         <label>$INFO[ListItem.ChannelNumber]</label>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>35</posy>
+                        <left>5</left>
+                        <top>35</top>
                         <width>30</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="label">
-                        <posx>65</posx>
+                        <left>65</left>
                         <width>340</width>
                         <font>font13</font>
                         <label>$INFO[ListItem.Label] [COLOR Accent]$INFO[ListItem.Title][/COLOR]</label>
                     </control>
                     <control type="label">
-                        <posx>5</posx>
-                        <posy>40</posy>
+                        <left>5</left>
+                        <top>40</top>
                         <width>100</width>
                         <aligny>center</aligny>
                         <label>$INFO[ListItem.StartTime]</label>
@@ -113,8 +113,8 @@
                     </control>
                     <control type="progress">
                         <description>Progressbar</description>
-                        <posx>0</posx>
-                        <posy>77</posy>
+                        <left>0</left>
+                        <top>77</top>
                         <width>340</width>
                         <height>5</height>
                         <info>ListItem.Progress</info>
@@ -123,16 +123,16 @@
                         <midtexture>progresslime.png</midtexture>
                     </control>
                     <control type="label">
-                        <posx>335</posx>
-                        <posy>40</posy>
+                        <left>335</left>
+                        <top>40</top>
                         <width>100</width>
                         <align>right</align>
                         <label>$INFO[ListItem.EndTime]</label>
                         <visible>ListItem.HasEpg</visible>
                     </control>
                     <control type="image">
-                        <posx>360</posx>
-                        <posy>4</posy>
+                        <left>360</left>
+                        <top>4</top>
                         <width>40</width>
                         <height>40</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -140,16 +140,16 @@
                 </itemlayout>
                 <focusedlayout height="90">
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>410</width>
                         <height>82</height>
                         <texture border="5">tile.png</texture>
                         <visible>!Control.HasFocus(11)</visible>
                     </control>
                     <control type="image">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>410</width>
                         <height>82</height>
                         <texture border="5">tile.png</texture>
@@ -164,28 +164,28 @@
                         </animation>
                     </control>
                     <control type="label">
-                        <posx>22</posx>
+                        <left>22</left>
                         <width>45</width>
                         <align>center</align>
                         <label>[B]$INFO[ListItem.ChannelNumber][/B]</label>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>35</posy>
+                        <left>5</left>
+                        <top>35</top>
                         <width>30</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="label">
-                        <posx>65</posx>
+                        <left>65</left>
                         <width>340</width>
                         <font>font13</font>
                         <label>$INFO[ListItem.Label] [COLOR Accent]$INFO[ListItem.Title][/COLOR]</label>
                     </control>
                     <control type="label">
-                        <posx>50</posx>
-                        <posy>25</posy>
+                        <left>50</left>
+                        <top>25</top>
                         <width>300</width>
                         <height>20</height>
                         <font>font12</font>
@@ -197,8 +197,8 @@
                         <visible>!IsEmpty(Listitem.Icon)</visible>
                     </control>
                     <control type="label">
-                        <posx>5</posx>
-                        <posy>40</posy>
+                        <left>5</left>
+                        <top>40</top>
                         <width>100</width>
                         <aligny>center</aligny>
                         <label>$INFO[ListItem.StartTime]</label>
@@ -206,8 +206,8 @@
                     </control>
                     <control type="progress">
                         <description>Progressbar</description>
-                        <posx>0</posx>
-                        <posy>77</posy>
+                        <left>0</left>
+                        <top>77</top>
                         <width>340</width>
                         <height>5</height>
                         <info>ListItem.Progress</info>
@@ -216,16 +216,16 @@
                         <midtexture>progresslime.png</midtexture>
                     </control>
                     <control type="label">
-                        <posx>335</posx>
-                        <posy>40</posy>
+                        <left>335</left>
+                        <top>40</top>
                         <width>100</width>
                         <align>right</align>
                         <label>$INFO[ListItem.EndTime]</label>
                         <visible>ListItem.HasEpg</visible>
                     </control>
                     <control type="image">
-                        <posx>360</posx>
-                        <posy>4</posy>
+                        <left>360</left>
+                        <top>4</top>
                         <width>40</width>
                         <height>40</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -234,8 +234,8 @@
             </control>
         </control>
         <control type="scrollbar" id="60">
-            <posx>1274</posx>
-            <posy>0</posy>
+            <left>1274</left>
+            <top>0</top>
             <width>6</width>
             <height>720</height>
             <texturesliderbackground></texturesliderbackground>

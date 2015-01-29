@@ -14,12 +14,12 @@
             </animation>
             <visible>!Window.IsActive(visualisation) + !Window.IsActive(karaoke) + !Window.IsActive(slideshow)</visible>
             <control type="group">
-                <posx>75</posx>
-                <posy>628</posy>
+                <left>75</left>
+                <top>628</top>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>920</width>
                     <label>[COLOR Accent]$INFO[MusicPlayer.Artist,,][/COLOR]</label>
                     <scroll>true</scroll>
@@ -28,8 +28,8 @@
                 </control>
                 <control type="label">
                     <description>Now Playing</description>
-                    <posx>0</posx>
-                    <posy>32</posy>
+                    <left>0</left>
+                    <top>32</top>
                     <width>920</width>
                     <label>$INFO[MusicPlayer.Title,,][COLOR Accent]$INFO[MusicPlayer.Album, ,][/COLOR]</label>
                     <scroll>true</scroll>
@@ -40,8 +40,8 @@
             <control type="group">
                 <control type="progress">
                     <description>Progressbar</description>
-                    <posx>0</posx>
-                    <posy>715</posy>
+                    <left>0</left>
+                    <top>715</top>
                     <width>1280</width>
                     <height>5</height>
                     <info>Player.Progress</info>
@@ -50,8 +50,8 @@
                 </control>
                 <control type="label">
                     <description>Player Times</description>
-                    <posx>1190</posx>
-                    <posy>660</posy>
+                    <left>1190</left>
+                    <top>660</top>
                     <width>240</width>
                     <label>[COLOR Accent]$INFO[Player.Time][/COLOR] / $INFO[Player.Duration]</label>
                     <align>right</align>

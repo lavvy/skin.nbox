@@ -15,19 +15,19 @@
                 <effect type="slide" start="+1500,0" time="300" />
             </animation>
             <control type="group">
-                <posx></posx>
-                <posy></posy>
+                <left></left>
+                <top></top>
                 <control type="image">
-                    <posx>679</posx>
-                    <posy>288</posy>
+                    <left>679</left>
+                    <top>288</top>
                     <width>466</width>
                     <height>315</height>
                     <texture>music_fanart_diffuse.png</texture>
                 </control>
                 <control type="image">
                     <description>Cover Image</description>
-                    <posx>230</posx>
-                    <posy>180</posy>
+                    <left>230</left>
+                    <top>180</top>
                     <width>424</width>
                     <height>424</height>
                     <texture>$INFO[ListItem.Icon]</texture>
@@ -36,8 +36,8 @@
                     <bordersize>5</bordersize>
                 </control>
                 <control type="fadelabel">
-                    <posx>682</posx>
-                    <posy>171</posy>
+                    <left>682</left>
+                    <top>171</top>
                     <height>30</height>
                     <width>598</width>
                     <font>Home_menu</font>
@@ -50,8 +50,8 @@
                     <scrollspeed>50</scrollspeed>
                 </control>
                 <control type="grouplist">
-                    <posx>682</posx>
-                    <posy>230</posy>
+                    <left>682</left>
+                    <top>230</top>
                     <width>590</width>
                     <height>112</height>
                     <itemgap>0</itemgap>
@@ -65,8 +65,8 @@
                     </control>
                 </control>
                 <control type="list" id="5">
-                    <posx>679</posx>
-                    <posy>288</posy>
+                    <left>679</left>
+                    <top>288</top>
                     <width>466</width>
                     <height>315</height>
                     <onleft>10</onleft>
@@ -82,12 +82,12 @@
                             <texture border="2">other_textures/buttonnf.png</texture>
                         </control>
                         <control type="label">
-                            <posx>20</posx>
+                            <left>20</left>
                             <width>270</width>
                             <info>ListItem.Label</info>
                         </control>
                         <control type="label">
-                            <posx>446</posx>
+                            <left>446</left>
                             <width>270</width>
                             <align>right</align>
                             <info>ListItem.Label2</info>
@@ -100,20 +100,20 @@
                             <texture border="5">other_textures/buttonfo.png</texture>
                         </control>
                         <control type="label">
-                            <posx>20</posx>
+                            <left>20</left>
                             <width>270</width>
                             <info>ListItem.Label</info>
                             <textcolor>Accent</textcolor>
                             <visible>Control.HasFocus(5)</visible>
                         </control>
                         <control type="label">
-                            <posx>20</posx>
+                            <left>20</left>
                             <width>270</width>
                             <info>ListItem.Label</info>
                             <visible>!Control.HasFocus(5)</visible>
                         </control>
                         <control type="label">
-                            <posx>446</posx>
+                            <left>446</left>
                             <width>270</width>
                             <align>right</align>
                             <info>ListItem.Label2</info>
@@ -121,7 +121,7 @@
                             <visible>Control.HasFocus(5)</visible>
                         </control>
                         <control type="label">
-                            <posx>446</posx>
+                            <left>446</left>
                             <width>270</width>
                             <align>right</align>
                             <info>ListItem.Label2</info>
@@ -130,8 +130,8 @@
                     </focusedlayout>
                 </control>
                 <control type="scrollbar" id="64">
-                    <posx>1135</posx>
-                    <posy>288</posy>
+                    <left>1135</left>
+                    <top>288</top>
                     <width>8</width>
                     <height>315</height>
                     <texturesliderbackground></texturesliderbackground>
@@ -143,8 +143,8 @@
                     <orientation>vertical</orientation>
                 </control>
                 <control type="grouplist" id="9001">
-                    <posx>25</posx>
-                    <posy>240</posy>
+                    <left>25</left>
+                    <top>240</top>
                     <width>180</width>
                     <height>430</height>
                     <itemgap>-</itemgap>
@@ -166,8 +166,8 @@
         </control>
         <control type="group">
             <visible>Window.IsActive(slideshow)</visible>
-            <posx>880</posx>
-            <posy>0</posy>
+            <left>880</left>
+            <top>0</top>
             <animation type="WindowOpen">
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" />
             </animation>
@@ -175,15 +175,15 @@
                 <effect type="slide" time="300" start="0,0" end="+400,0" easing="in" tween="cubic" />
             </animation>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>440</width>
                 <height>720</height>
                 <texture border="22">button.png</texture>
             </control>
             <control type="list" id="5">
-                <posx>30</posx>
-                <posy>180</posy>
+                <left>30</left>
+                <top>180</top>
                 <width>340</width>
                 <height>495</height>
                 <onleft>10</onleft>
@@ -198,13 +198,13 @@
                         <texture border="2">other_textures/buttonnf.png</texture>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>270</width>
                         <info>ListItem.Label</info>
                         <textcolor>Black</textcolor>
                     </control>
                     <control type="label">
-                        <posx>320</posx>
+                        <left>320</left>
                         <width>270</width>
                         <align>right</align>
                         <info>ListItem.Label2</info>
@@ -218,13 +218,13 @@
                         <texture border="5">other_textures/buttonfo.png</texture>
                     </control>
                     <control type="label">
-                        <posx>20</posx>
+                        <left>20</left>
                         <width>270</width>
                         <info>ListItem.Label</info>
                         <textcolor>White</textcolor>
                     </control>
                     <control type="label">
-                        <posx>320</posx>
+                        <left>320</left>
                         <width>270</width>
                         <align>right</align>
                         <info>ListItem.Label2</info>

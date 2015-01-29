@@ -13,8 +13,8 @@
             </animation>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[137][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>190</posy>
+                <left>70</left>
+                <top>190</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -22,8 +22,8 @@
             </control>
             <control type="edit" id="9">
                 <description>Search string</description>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <width>820</width>
                 <height>45</height>
                 <align>left</align>
@@ -41,8 +41,8 @@
             </control>
             <control type="grouplist">
                 <itemgap>2</itemgap>
-                <posx>360</posx>
-                <posy>288</posy>
+                <left>360</left>
+                <top>288</top>
                 <onup>9</onup>
                 <ondown>9</ondown>
                 <onleft>26</onleft>
@@ -150,8 +150,8 @@
             </control>
             <control type="grouplist">
                 <itemgap>2</itemgap>
-                <posx>780</posx>
-                <posy>288</posy>
+                <left>780</left>
+                <top>288</top>
                 <onup>9</onup>
                 <ondown>9</ondown>
                 <onright>26</onright>
@@ -273,14 +273,14 @@
                 </control>
             </control>
             <control type="group" id="9000">
-                <posx>10</posx>
-                <posy>288</posy>
+                <left>10</left>
+                <top>288</top>
                 <width>300</width>
                 <height>370</height>
                 <scrolltime>0</scrolltime>
                 <control type="button" id="26">
                     <description>Search Button</description>
-                    <posy>0</posy>
+                    <top>0</top>
                     <width>300</width>
                     <label>137</label>
                     <focusedcolor>Accent</focusedcolor>
@@ -291,7 +291,7 @@
                 </control>
                 <control type="button" id="25">
                     <description>Cancel Button</description>
-                    <posy>45</posy>
+                    <top>45</top>
                     <width>300</width>
                     <label>222</label>
                     <focusedcolor>Accent</focusedcolor>
@@ -302,7 +302,7 @@
                 </control>
                 <control type="button" id="28">
                     <description>Defaults Button</description>
-                    <posy>90</posy>
+                    <top>90</top>
                     <width>300</width>
                     <label>409</label>
                     <focusedcolor>Accent</focusedcolor>

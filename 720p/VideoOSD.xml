@@ -18,8 +18,8 @@
         <control type="group">
             <visible>!Window.IsVisible(sliderdialog)</visible>
             <control type="grouplist" id="100">
-                <posx>40</posx>
-                <posy>12</posy>
+                <left>40</left>
+                <top>12</top>
                 <width>500</width>
                 <height>60</height>
                 <itemgap>2</itemgap>
@@ -80,8 +80,8 @@
             <control type="group">
                 <control type="button" id="12">
                     <description>Skip Back</description>
-                    <posx>37</posx>
-                    <posy>546</posy>
+                    <left>37</left>
+                    <top>546</top>
                     <width>74</width>
                     <height>74</height>
                     <onleft>noop</onleft>
@@ -96,8 +96,8 @@
                 </control>
                 <control type="button" id="13">
                     <description>rewind</description>
-                    <posx>540</posx>
-                    <posy>609</posy>
+                    <left>540</left>
+                    <top>609</top>
                     <width>40</width>
                     <height>40</height>
                     <onleft>12</onleft>
@@ -112,8 +112,8 @@
                 </control>
                 <control type="togglebutton" id="14">
                     <description>Play/pause</description>
-                    <posx>585</posx>
-                    <posy>597</posy>
+                    <left>585</left>
+                    <top>597</top>
                     <width>66</width>
                     <height>66</height>
                     <onleft>13</onleft>
@@ -132,8 +132,8 @@
                 </control>
                 <control type="button" id="15">
                     <description>Stop</description>
-                    <posx>655</posx>
-                    <posy>609</posy>
+                    <left>655</left>
+                    <top>609</top>
                     <width>40</width>
                     <height>40</height>
                     <onleft>14</onleft>
@@ -148,8 +148,8 @@
                 </control>
                 <control type="button" id="16">
                     <description>Fast Forward</description>
-                    <posx>700</posx>
-                    <posy>609</posy>
+                    <left>700</left>
+                    <top>609</top>
                     <width>40</width>
                     <height>40</height>
                     <onleft>15</onleft>
@@ -164,8 +164,8 @@
                 </control>
                 <control type="button" id="17">
                     <description>Next</description>
-                    <posx>1168</posx>
-                    <posy>546</posy>
+                    <left>1168</left>
+                    <top>546</top>
                     <width>74</width>
                     <height>74</height>
                     <onleft>16</onleft>

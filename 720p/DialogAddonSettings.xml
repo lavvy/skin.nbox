@@ -4,8 +4,8 @@
     <allowoverlay>yes</allowoverlay>
     <controls>
         <control type="group">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <animation type="WindowClose">
                 <effect type="fade" time="300" />
                 <effect type="slide" end="+1500,0" time="300" />
@@ -16,8 +16,8 @@
             </animation>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[5][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>190</posy>
+                <left>70</left>
+                <top>190</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -25,8 +25,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$INFO[Window.Property(addon)][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -34,8 +34,8 @@
             </control>
             <control type="grouplist" id="9">
                 <description>button area</description>
-                <posx>10</posx>
-                <posy>280</posy>
+                <left>10</left>
+                <top>280</top>
                 <width>300</width>
                 <height>330</height>
                 <itemgap>2</itemgap>
@@ -46,8 +46,8 @@
             </control>
             <control type="grouplist" id="2">
                 <description>control area</description>
-                <posx>340</posx>
-                <posy>280</posy>
+                <left>340</left>
+                <top>280</top>
                 <width>640</width>
                 <height>330</height>
                 <itemgap>2</itemgap>
@@ -97,8 +97,8 @@
                 <width>646</width>
             </control>
             <control type="grouplist" id="9001">
-                <posx>1020</posx>
-                <posy>280</posy>
+                <left>1020</left>
+                <top>280</top>
                 <itemgap>4</itemgap>
                 <orientation>vertical</orientation>
                 <control type="button" id="10">

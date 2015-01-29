@@ -4,8 +4,8 @@
     <allowoverlay>yes</allowoverlay>
     <controls>
         <control type="group">
-            <posx>880</posx>
-            <posy>0</posy>
+            <left>880</left>
+            <top>0</top>
             <visible>![Window.IsVisible(DialogNumeric.xml) | Window.IsVisible(DialogContextMenu.xml)]</visible>
             <animation type="WindowOpen">
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" delay="300" />
@@ -20,16 +20,16 @@
                 <effect type="slide" time="300" start="+400, 0" end="0,0" easing="out" tween="cubic" delay="300" />
             </animation>
             <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>400</width>
                 <height>720</height>
                 <texture border="22">button.png</texture>
             </control>
             <control type="label">
                 <description>Heading</description>
-                <posx>30</posx>
-                <posy>70</posy>
+                <left>30</left>
+                <top>70</top>
                 <width>400</width>
                 <align>left</align>
                 <font>Home_sub_header</font>
@@ -38,8 +38,8 @@
             </control>
             <control type="grouplist" id="5">
                 <description>Control Area</description>
-                <posx>30</posx>
-                <posy>180</posy>
+                <left>30</left>
+                <top>180</top>
                 <width>340</width>
                 <height>440</height>
                 <itemgap>2</itemgap>
@@ -75,8 +75,8 @@
             </control>
             <control type="button" id="28">
                 <description>Ok</description>
-                <posx>10</posx>
-                <posy>660</posy>
+                <left>10</left>
+                <top>660</top>
                 <width>180</width>
                 <label>186</label>
                 <onleft>5</onleft>
@@ -87,8 +87,8 @@
             </control>
             <control type="button" id="29">
                 <description>Cancel</description>
-                <posx>210</posx>
-                <posy>660</posy>
+                <left>210</left>
+                <top>660</top>
                 <width>180</width>
                 <label>222</label>
                 <onleft>28</onleft>

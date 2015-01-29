@@ -21,16 +21,16 @@
             <animation type="Conditional" condition="!ControlGroup(9000).HasFocus() | Window.IsActive(PlayerControls)">
                 <effect type="fade" time="300" start="100" end="0" />
             </animation>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>1280</width>
             <height>720</height>
             <texture border="2">other_textures/black-back.png</texture>
         </control>
         <control type="image">
             <description>background image</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>305</width>
             <height>720</height>
             <texture border="22">button.png</texture>
@@ -43,8 +43,8 @@
             <include>HiddenButton</include>
         </control>
         <control type="grouplist" id="9000">
-            <posx>30</posx>
-            <posy>140</posy>
+            <left>30</left>
+            <top>140</top>
             <width>240</width>
             <height>600</height>
             <itemgap>0</itemgap>
@@ -83,7 +83,7 @@
                 <description>Watched Toggle</description>
                 <height>40</height>
                 <width>250</width>
-                <radioposx>200</radioposx>
+                <radioleft>200</radioleft>
                 <textoffsetx>20</textoffsetx>
                 <textwidth>200</textwidth>
                 <align>left</align>

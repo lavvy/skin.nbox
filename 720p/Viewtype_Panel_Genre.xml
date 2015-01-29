@@ -22,8 +22,8 @@
                 <effect type="fade" time="300" />
             </animation>
             <control type="image">
-                <posx>-12</posx>
-                <posy>174</posy>
+                <left>-12</left>
+                <top>174</top>
                 <width>72</width>
                 <height>72</height>
                 <texture background="true">other_textures/osd/playlistnf.png</texture>
@@ -45,8 +45,8 @@
             </control>
             <control type="panel" id="56">
                 <viewtype label="Genres">Genres</viewtype>
-                <posx>60</posx>
-                <posy>290</posy>
+                <left>60</left>
+                <top>290</top>
                 <width>1200</width>
                 <height>318</height>
                 <scrolltime>200</scrolltime>
@@ -58,16 +58,16 @@
                 <visible>Window.IsActive(1) | Container.Content(genres)</visible>
                 <itemlayout width="159" height="159">
                     <control type="image">
-                        <posy></posy>
-                        <posx>9</posx>
+                        <top></top>
+                        <left>9</left>
                         <width>155</width>
                         <height>155</height>
                         <texture background="true">tile.png</texture>
                         <aspectratio scalediffuse="false">stretch</aspectratio>
                     </control>
                     <control type="image">
-                        <posx>46</posx>
-                        <posy>28</posy>
+                        <left>46</left>
+                        <top>28</top>
                         <width>80</width>
                         <height>80</height>
                         <texture background="true">moviegenres/$INFO[ListItem.Label].png</texture>
@@ -75,8 +75,8 @@
                     </control>
                     <control type="label">
                         <label>  $INFO[ListItem.Label]</label>
-                        <posx>10</posx>
-                        <posy>121</posy>
+                        <left>10</left>
+                        <top>121</top>
                         <height>30</height>
                         <width>153</width>
                         <font>button_bold</font>
@@ -85,8 +85,8 @@
                 </itemlayout>
                 <focusedlayout width="159" height="159">
                     <control type="image">
-                        <posy></posy>
-                        <posx>9</posx>
+                        <top></top>
+                        <left>9</left>
                         <width>155</width>
                         <height>155</height>
                         <texture>button.png</texture>
@@ -96,8 +96,8 @@
                         <aspectratio scalediffuse="false">stretch</aspectratio>
                     </control>
                     <control type="image">
-                        <posx>46</posx>
-                        <posy>28</posy>
+                        <left>46</left>
+                        <top>28</top>
                         <width>80</width>
                         <height>80</height>
                         <texture background="true">moviegenres/$INFO[ListItem.Label].png</texture>
@@ -105,8 +105,8 @@
                     </control>
                     <control type="label">
                         <label>  $INFO[ListItem.Label]</label>
-                        <posx>10</posx>
-                        <posy>121</posy>
+                        <left>10</left>
+                        <top>121</top>
                         <height>30</height>
                         <width>153</width>
                         <font>button_bold</font>
@@ -115,8 +115,8 @@
                 </focusedlayout>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -127,8 +127,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[19020][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>550</width>
                 <font>Home_header</font>
@@ -137,8 +137,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[31715][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>550</width>
                 <font>Home_header</font>
@@ -147,8 +147,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[2][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>550</width>
                 <font>Home_header</font>
@@ -156,8 +156,8 @@
                 <visible>Window.IsVisible(MusicLibrary)</visible>
             </control>
             <control type="fadelabel" id="140">
-                <posx>384</posx>
-                <posy>185</posy>
+                <left>384</left>
+                <top>185</top>
                 <height>30</height>
                 <width>985</width>
                 <font>Home_menu</font>

@@ -9,19 +9,19 @@
             <animation type="WindowClose">
                 <effect type="fade" time="500" delay="200" />
             </animation>
-            <posx>160</posx>
-            <posy>55</posy>
+            <left>160</left>
+            <top>55</top>
             <control type="image">
-                <posx>-20</posx>
-                <posy>-20</posy>
+                <left>-20</left>
+                <top>-20</top>
                 <width>1000</width>
                 <height>650</height>
                 <texture border="22">button.png</texture>
             </control>
             <control type="label" id="1">
                 <description>header label</description>
-                <posx>10</posx>
-                <posy>10</posy>
+                <left>10</left>
+                <top>10</top>
                 <width>940</width>
                 <height>30</height>
                 <font>Large</font>
@@ -29,16 +29,16 @@
             </control>
             <control type="textbox" id="5">
                 <description>textarea</description>
-                <posx>10</posx>
-                <posy>72</posy>
+                <left>10</left>
+                <top>72</top>
                 <width>922</width>
                 <height>516</height>
                 <align>justify</align>
                 <textcolor>black</textcolor>
             </control>
             <control type="scrollbar" id="61">
-                <posx>940</posx>
-                <posy>72</posy>
+                <left>940</left>
+                <top>72</top>
                 <width>10</width>
                 <height>516</height>
                 <onleft>Close</onleft>

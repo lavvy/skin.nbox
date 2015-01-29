@@ -2,8 +2,8 @@
 <includes>
     <include name="Viewtype_Season_Tall">
         <control type="image">
-            <posx>-12</posx>
-            <posy>174</posy>
+            <left>-12</left>
+            <top>174</top>
             <width>72</width>
             <height>72</height>
             <texture background="true">other_textures/osd/playlistnf.png</texture>
@@ -46,8 +46,8 @@
             </animation>
             <control type="panel" id="55">
                 <viewtype label="Seasons View">Seasons View</viewtype>
-                <posx>76</posx>
-                <posy>288</posy>
+                <left>76</left>
+                <top>288</top>
                 <width>1200</width>
                 <height>315</height>
                 <scrolltime>200</scrolltime>
@@ -58,8 +58,8 @@
                 <visible>Window.IsActive(1) | Container.Content(Seasons)</visible>
                 <itemlayout width="230" height="320">
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>white_box.png</texture>
@@ -67,8 +67,8 @@
                         <visible>!StringCompare(ListItem.Title, ) + !SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -77,8 +77,8 @@
                         <visible>!SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -87,8 +87,8 @@
                         <visible>SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>music_fanart_diffuse.png</texture>
@@ -100,8 +100,8 @@
                         <visible>!StringCompare(ListItem.Title, ) + !SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx>151</posx>
-                        <posy>4</posy>
+                        <left>151</left>
+                        <top>4</top>
                         <width>60</width>
                         <height>60</height>
                         <texture>watched.png</texture>
@@ -112,8 +112,8 @@
                         <visible>[Container.Content(Seasons) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [Container.Content(TVShows) + stringcompare(ListItem.Overlay,OverlayWatched.png)]</visible>
                     </control>
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>new.png</texture>
@@ -124,8 +124,8 @@
                 </itemlayout>
                 <focusedlayout width="230" height="320">
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>white_box.png</texture>
@@ -133,8 +133,8 @@
                         <visible>!StringCompare(ListItem.Title, ) + !SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -143,8 +143,8 @@
                         <visible>!SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx></posx>
-                        <posy></posy>
+                        <left></left>
+                        <top></top>
                         <width>215</width>
                         <height>315</height>
                         <texture>$INFO[ListItem.Icon]</texture>
@@ -153,8 +153,8 @@
                         <visible>SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx>151</posx>
-                        <posy>4</posy>
+                        <left>151</left>
+                        <top>4</top>
                         <width>60</width>
                         <height>60</height>
                         <texture>watched.png</texture>
@@ -165,8 +165,8 @@
                         <visible>[[Container.Content(Seasons) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [Container.Content(TVShows) + stringcompare(ListItem.Overlay,OverlayWatched.png)]] + !SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image">
-                        <posx>181</posx>
-                        <posy>13</posy>
+                        <left>181</left>
+                        <top>13</top>
                         <width>18</width>
                         <height>15</height>
                         <texture>watchedpanel.png</texture>
@@ -177,16 +177,16 @@
                         <visible>[[Container.Content(Seasons) + stringcompare(ListItem.Overlay,OverlayWatched.png)] | [Container.Content(TVShows) + stringcompare(ListItem.Overlay,OverlayWatched.png)]] + SubString(ListItem.Icon,default)</visible>
                     </control>
                     <control type="image" id="2">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width>8</width>
                         <height>55</height>
                         <texture>bar.png</texture>
                         <visible></visible>
                     </control>
                     <control type="image">
-                        <posx>88</posx>
-                        <posy>130</posy>
+                        <left>88</left>
+                        <top>130</top>
                         <width>20</width>
                         <height>20</height>
                         <texture>new.png</texture>
@@ -199,8 +199,8 @@
                 </focusedlayout>
             </control>
             <control type="fadelabel" id="140">
-                <posx>295</posx>
-                <posy>171</posy>
+                <left>295</left>
+                <top>171</top>
                 <height>30</height>
                 <width>985</width>
                 <font>Home_menu</font>
@@ -214,8 +214,8 @@
                 <visible>Window.IsActive(1) | Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)</visible>
             </control>
             <control type="label">
-                <posx>295</posx>
-                <posy>210</posy>
+                <left>295</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -224,8 +224,8 @@
                 <label>$INFO[ListItem.Property(TotalEpisodes),, [LOWERCASE]$LOCALIZE[20360][/LOWERCASE]]</label>
             </control>
             <control type="label">
-                <posx>388</posx>
-                <posy>210</posy>
+                <left>388</left>
+                <top>210</top>
                 <width>600</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -235,8 +235,8 @@
                 <visible>!IsEmpty(ListItem.Genre) + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(albums)]</visible>
             </control>
             <control type="label">
-                <posx>566</posx>
-                <posy>552</posy>
+                <left>566</left>
+                <top>552</top>
                 <width>300</width>
                 <height>50</height>
                 <align>left</align>
@@ -246,16 +246,16 @@
                 <visible>Container.Content(tvshows)</visible>
             </control>
             <control type="image">
-                <posx>568</posx>
-                <posy>566</posy>
+                <left>568</left>
+                <top>566</top>
                 <width>100</width>
                 <height>25</height>
                 <texture>other_textures/colorrating/$INFO[ListItem.StarRating]</texture>
                 <visible>!IsEmpty(ListItem.Title) + Container.Content(movies)</visible>
             </control>
             <control type="label">
-                <posx>75</posx>
-                <posy>220</posy>
+                <left>75</left>
+                <top>220</top>
                 <width>300</width>
                 <align>left</align>
                 <aligny>top</aligny>
@@ -266,8 +266,8 @@
             </control>
             <control type="label">
                 <label>[LOWERCASE]$LOCALIZE[19020][/LOWERCASE]</label>
-                <posx>70</posx>
-                <posy>170</posy>
+                <left>70</left>
+                <top>170</top>
                 <height>30</height>
                 <width>400</width>
                 <font>Home_header</font>

@@ -24,8 +24,8 @@
             </animation>
             <control type="label">
                 <label>$LOCALIZE[31720]</label>
-                <posx>70</posx>
-                <posy>190</posy>
+                <left>70</left>
+                <top>190</top>
                 <height>30</height>
                 <width>250</width>
                 <font>Home_header</font>
@@ -33,8 +33,8 @@
             </control>
             <control type="label">
                 <label>[COLOR Accent]$LOCALIZE[5][/COLOR]</label>
-                <posx>360</posx>
-                <posy>200</posy>
+                <left>360</left>
+                <top>200</top>
                 <height>30</height>
                 <width>450</width>
                 <font>Home_sub_header</font>
@@ -42,8 +42,8 @@
             </control>
             <control type="list" id="1000">
                 <description>List</description>
-                <posx>10</posx>
-                <posy>280</posy>
+                <left>10</left>
+                <top>280</top>
                 <width>300</width>
                 <height>370</height>
                 <onup>1000</onup>
@@ -60,7 +60,7 @@
                         <texture border="2">other_textures/buttonnf.png</texture>
                     </control>
                     <control type="label">
-                        <posx>280</posx>
+                        <left>280</left>
                         <width>260</width>
                         <align>right</align>
                         <label>$INFO[ListItem.Label]</label>
@@ -74,7 +74,7 @@
                         <animation effect="fade" start="100" end="50" condition="!Control.HasFocus(1000)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <posx>280</posx>
+                        <left>280</left>
                         <width>260</width>
                         <align>right</align>
                         <label>[COLOR Accent]$INFO[ListItem.Label][/COLOR]</label>
@@ -99,8 +99,8 @@
                 </content>
             </control>
             <control type="group" id="99">
-                <posx>340</posx>
-                <posy>280</posy>
+                <left>340</left>
+                <top>280</top>
                 <control type="grouplist" id="100">
                     <description>Control Area</description>
                     <width>820</width>
