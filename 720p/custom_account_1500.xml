@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="1500">
+ 
+  <defaultcontrol always="true">91</defaultcontrol>
+    <allowoverlay>yes</allowoverlay>
+	 <onload>Addon.OpenSettings(plugin.videoplusprogram.xbmc)</onload>
+	 
+    <controls>
+        <include>HomeBackground</include>
+        <include>BarClock</include>
+		
+		
+		
+		
+		
+		
+    </controls>  
+</window>
